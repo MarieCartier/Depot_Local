@@ -46,16 +46,18 @@ div
     display: flex;
     justify-content: space-between;
 }
+
 .aside2
 { 
     height: auto;
     width: 1000px;
 }
+
 .aside3
 {
     background-color: rgb(202, 202, 202);
     width: 600px;
     padding: 1em;
     margin-left: 2em;
-
 }
+

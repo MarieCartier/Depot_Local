@@ -1,0 +1,70 @@
+html {
+    margin: 1% 2% 2% 2%;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  a 
+  {
+    
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    background: url('img.icons8.com/metro/50/000000/external-link.png') no repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+   
+  }
+  
+  a:link, a:visited, a:focus 
+  {
+    
+    background-color: yellow;
+    background-size: 20px 20px;
+    border-bottom: 4px dotted orange;
+    border-top: 4px dotted orange;
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    border-radius: 20px;
+  }
+  
+  a:hover 
+  {
+    background: orange;
+  }
+  
+  a:active 
+  {
+    background: red;
+    color: white;
+  }    
+  
+  p
+  { height: 200px;
+    width: 260px;
+    padding: 0px 20px 10px 20px;
+    border-bottom: 4px solid red;
+    border-left: 2px dotted rgb(202, 158, 12);
+    border-top: 4px solid green;
+    border-right: 2px dotted rgb(0, 162, 255);
+    margin-left: 50%;
+    overflow: auto;
+  }
+  
+  span
+  { border: 2px green solid;
+  padding: 2px;
+  height: 120px;
+  width: 80px;
+  overflow: auto;
+  }
+  .p1 {display: block;}
+  
+  .p2 { display: inline;}
+  

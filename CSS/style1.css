@@ -1,0 +1,95 @@
+@media handheld
+
+html {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(111, 255, 255, 0.596);
+  }
+  
+  a 
+  {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 12%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    padding: 3px 3px 3px 3px;
+  }
+  
+  a:link, a:visited, a:focus 
+  {
+    background: yellow;
+    background-size: 10px 10px;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+  }
+  
+  a:hover 
+  {
+    background: orange;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  
+  a:active 
+  {
+    background: red;
+    color: white;
+    border: none;
+  }    
+  
+    #title 
+  {
+      color: rgb(236, 218, 177);   
+      font-family: 'georgia';
+      font-size: 2em;
+      line-height: 3;
+      text-shadow: 30px 30px 30px black,
+                    0px 0px 30px black,
+                    -30px -30px 30px black,
+                    30px -30px 29px black,
+                    -30px 30px 29px black,
+                    0px 40px 30px black,
+                    0px -40px 30px black;
+  } 
+  
+  div
+  {
+      font-size: 20px;
+  }
+  
+  
+    p
+  {
+      color: rgb(11, 90, 86);     
+  } 
+  
+    .red
+  {
+      color: rgb(255, 0, 0);     
+  } 
+  
+    ul
+  {
+      color: rgb(255, 0, 119);     
+      text-align: left;
+  } 
+    h3
+  {
+      color: rgb(248, 170, 2);     
+      text-align: left;
+  } 
+    #quote
+  {
+      background-color: rgb(0, 0, 0);
+      color: gold;
+  }
