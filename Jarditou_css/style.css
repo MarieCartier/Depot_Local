@@ -1,63 +1,88 @@
-body
-{
-    margin: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
+    body
+    {
+        margin: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
 
-header
-{
-    display: inline-flex;
-    line-height: 4em;
-    background-color: white;
-    padding: 1em;
-    width: 100%;
-}
+    header
+    {
+        display: inline-flex;
+        line-height: 4em;
+        background-color: white;
+        padding: 1em;
+        width: 100%;
+    }
 
-.aside1
+    .aside1
+    {
+        font-size: 2em;
+        background-color: white;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+
+    nav 
+    {
+        background-color: black;
+        padding: 1em;
+        padding-left: 2.5em;
+    }
+
+    a
+    {
+        color: white;
+    }
+
+    footer
+    {
+        background-color: black;
+        padding: 1em;
+        padding-left: 2.5em; 
+    }
+
+    div
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aside2
+    { 
+        height: auto;
+        width: 1000px;
+    }
+
+    .aside3
+    {
+        background-color: rgb(202, 202, 202);
+        width: 600px;
+        padding: 1em;
+        margin-left: 2em;
+    }
+
+@media screen and (max-width:768px) 
 {
-    font-size: 2em;
-    background-color: white;
+  html 
+  {
+    font-size: smaller;
+  }
+  a 
+  {
+    display: block;
     text-align: center;
-    margin-left: 25%;
+  }
+  .aside3
+  {
+    display: none;
+  }
+  header
+  {
+    display: block;
+    text-align: center;
+  }
+  .aside1
+  {
+    margin-left: auto;
+  }
 }
-
-
-nav 
-{
-    background-color: black;
-    padding: 1em;
-    padding-left: 2.5em;
-}
-
-a
-{
-    color: white;
-}
-
-footer
-{
-    background-color: black;
-    padding: 1em;
-    padding-left: 2.5em; 
-}
-
-div
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.aside2
-{ 
-    height: auto;
-    width: 1000px;
-}
-
-.aside3
-{
-    background-color: rgb(202, 202, 202);
-    width: 600px;
-    padding: 1em;
-    margin-left: 2em;
-}
-
