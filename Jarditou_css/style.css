@@ -11,6 +11,8 @@
         background-color: white;
         padding: 1em;
         width: 100%;
+        font-style: italic;
+        ;
     }
 
     .aside1
@@ -22,25 +24,19 @@
     }
 
 
-    nav 
+    nav, footer 
     {
         background-color: black;
         padding: 1em;
         padding-left: 2.5em;
+        border-radius: 20px;
+        
     }
 
     a
     {
-        color: white;
+      color: white;
     }
-
-    footer
-    {
-        background-color: black;
-        padding: 1em;
-        padding-left: 2.5em; 
-    }
-
     div
     {
         display: flex;
@@ -56,33 +52,36 @@
     .aside3
     {
         background-color: rgb(202, 202, 202);
+        border-radius: 20px 40px 20px 40px;
         width: 600px;
         padding: 1em;
         margin-left: 2em;
+        
     }
 
-@media screen and (max-width:768px) 
-{
-  html 
-  {
-    font-size: smaller;
-  }
-  a 
-  {
-    display: block;
-    text-align: center;
-  }
-  .aside3
-  {
-    display: none;
-  }
-  header
-  {
-    display: block;
-    text-align: center;
-  }
-  .aside1
-  {
-    margin-left: auto;
-  }
-}
+ 
+    @media all and (max-width:768px) 
+    {
+      html 
+      {
+        font-size: smaller;
+      }
+      a 
+      {
+        display: block;
+        text-align: center;
+      }
+      .aside3
+      {
+        display: none;
+      }
+      header
+      {
+        display: block;
+        text-align: center;
+      }
+      .aside1
+      {
+        margin-left: auto;
+      }
+    }
