@@ -88,17 +88,27 @@ p
 section
 {
     font-size: 2rem;
-    color: whitesmoke;
+    background-color: rgba(4, 189, 170, 0.87);
+    width: auto;
+    color: rgb(0, 41, 27);
 }
 
-section:hover
+section
 {
-    background-color: rgba(4, 189, 170, 0.685);
+    background-color: rgba(4, 189, 170, 0.87);
     width: auto;
     color: rgb(0, 41, 27);
 }
 
 h3
 {
-    color: rgb(170, 46, 24);
+    color:crimson;
+    outline: double ;
+}
+
+section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
