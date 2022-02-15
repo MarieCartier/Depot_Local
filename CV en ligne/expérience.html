@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device.width, initial-scale=1">
   <meta name="description" content="premier test html afpa amiens" />
-  <title>Mon test de page HTML 5</title>
+  <title>Mon CV</title>
   <link rel="icon" href="Sources/raccoon.png" />
   <link rel="stylesheet" href="CSS/style.css""> 
   <style>
@@ -21,19 +21,20 @@ background-position-x: center;
 </head>
 <body>
   <nav id="menu">
-        <a href="index.html".html" title="Page d'accueil">Accueil</a>
-        <a href="expérience.html" title="Mes expériences professionnelles">Mes expériences</a>
-        <a href="formation.html" title="Mes formations">Mes formations</a>
-        <a href="projets.html" title="Projets d'aménagements">Mes projets</a>
+        <a class="menu" href="index.html".html" title="Page d'accueil">Accueil</a>
+        <a class="menu" href="expérience.html" title="Mes expériences professionnelles">Mes expériences</a>
+        <a class="menu" href="formation.html" title="Mes formations">Mes formations</a>
+        <a class="menu" href="projets.html" title="Projets d'aménagements">Mes projets</a>
 
       </nav>
   </nav>
     <h1>Mes expériences professionnelles</h1>
 
     <section>
-        <article>
+
+        <article class="colonne">
             <h3>Soigneur animalier</h3>
-            <p>J'ai travaillé dans ces différentes structures animalières, en tant que soigneur animateur polyvalente:
+            <div>J'ai travaillé dans ces différentes structures animalières, en tant que soigneur animateur polyvalente:
             <ul type="circle">
                 <li>Parc Aisnes Autruches (Ferme Souchinet, 02)</li>
                 <li>Parc Animalier et Botanique de Branféré (56)</li>
@@ -44,12 +45,21 @@ background-position-x: center;
                 <li>Zoo de Lille (59)</li>
                 <li>Zoo de Fort-Mardyck (59)</li>
                 <li>Zoo d'Amiens (80)</li>
-            </ul></p>
-            <p> 
-
-            </p>
+            </ul>
+        </div>
+            <div> 
+                J'ai pu donc côtoyer un large panel d'espèces (que vous retrouverez <a id="ici" href="espèces.html">ici</a>), avec lesquelles j'ai pu pratiquer toutes les facettes du métier de soigneur, telles que:
+                <ul type="">
+                    <li>Nettoyages des loges et enclos</li>
+                    <li>Entretien des espaces verts</li>
+                    <li>Entraînements médicaux</li>
+                    <li>Soins quotidiens</li>
+                    <li>Assistance au vétérinaire</li>
+                    <li></li>
+                </ul>
+            </div>
         </article>
-        <aside>
+        <aside class="colonne">
             <h3>Animatrice/Assistante Sanitaire</h3>
             <article> J'ai aussi été animatrice en séjours (scolaires ou de vacances), avec souvent le rôle supplémentaire d'assistante sanitaire.
             <br> J'ai pu accompagner les enfants et adolescents sous ma responsabilité dans ces différents pays:
@@ -65,7 +75,7 @@ background-position-x: center;
                     <li>Porto</li>
                 </ul>
                 <li>Italie</li>
-                <ul type="circle">
+                <ul type="disc">
                     <li>Naples</li>
                     <li>Capri</li>
                     <li>Venise</li>
@@ -97,12 +107,25 @@ background-position-x: center;
                         <li>Yvelines</li>
                         <li>Puy de Dôme</li>
                         <li>Mayenne</li>
-
+                        <li>Pas-de-Calais</li>
                     </ul>
                 </li>
             </ul>
+            Ce qui m'a permis d'encadrer des activités sur des thèmes divers et variés: ski alpin, musher/chiens de traîneau, luge, plages du débarquement, découverte de la nature, équitation, parcs zoologique, découvertes culturelles, karting, escape-game, découverte de la préhistoire, voile, cirque, piscine, Harry Potter, et bien d'autres encore !
             </article>
         </aside>
+        <aside class="colonne">
+            <h3>Autres Métiers</h3>
+            J'ai aussi eu l'occasion de pratiquer d'autres métiers ! 
+            On peut citer: 
+            <ul type="circle">
+                <li>Préparatrice de commandes chez Amazon (59)</li>
+                <li>Garde d'enfants de 1 à 10 ans (59, 60)</li>
+                <li>Animatrice de pauses méridiennes (93)</li>
+                <li>Agent d'entretien (62)</li>
+
+        </aside>
+
     </section>
 </body>
 </html>
