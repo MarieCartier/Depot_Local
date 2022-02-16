@@ -9,11 +9,7 @@ html
     font-size: 10px;
     background-color: rgb(0, 41, 27);
     background-image: url("Sources/alli5.jpg");
-    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-clip: border-box;
-    background-position-x: center;
-    margin: 1rem 1rem 1rem 1rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(223, 247, 196)
 }
@@ -67,7 +63,7 @@ a.menu:hover
     text-align: center;
 }
 
-p
+h2
 {
     font-size: 3em;
     text-align: center;
