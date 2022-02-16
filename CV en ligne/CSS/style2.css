@@ -13,7 +13,8 @@ html
 
 
 /*Page Accueil*/
-    /*Menu de navigation*/
+
+        /*Menu de navigation*/
     p
     {
         /*Début flexbox*/
@@ -80,7 +81,6 @@ html
     /*Titre Principal*/
     #accueil
     {
-        margin-bottom: ;
         font-family: Adeline;
         font-size: 200px;
         color: rgb(223, 247, 196);
@@ -118,7 +118,6 @@ html
         color: rgb(199, 17, 17);
         text-decoration: underline double;
         text-align: center;
-        padding-bottom: ;
     }
 
     /*Définit la déco/mep des colonnes*/
@@ -155,3 +154,30 @@ html
         text-align: center;
         font-size: 1.5rem;
     }
+
+/*Page Formations*/
+    #section3
+    {
+        /*Début flexbox*/
+        display: inline-block;
+        color: rgb(0, 41, 27);
+    }
+
+    .école
+    {
+        background-color: rgba(4, 189, 170, 0.918);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        border-radius: 30px 5px;
+        margin-bottom: 1rem;
+        color: black;
+        text-align: center;
+    }
+
+    .ps:hover
+    {
+        background-color: white;
+    }
+    
