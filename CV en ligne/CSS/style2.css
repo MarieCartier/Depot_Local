@@ -99,7 +99,7 @@ html
 
 /*Page Expériences*/
 
-    section
+    #section1
     {
         /*Début flexbox*/
         display: flex;
@@ -115,12 +115,13 @@ html
     /*Titre de colonne*/
     h3
     {
-        color: rgb(0, 131, 59);
+        color: rgb(199, 17, 17);
         text-decoration: underline double;
         text-align: center;
         padding-bottom: ;
     }
 
+    /*Définit la déco/mep des colonnes*/
     .colonne
     {
         background-color: rgba(4, 189, 170, 0.918);
@@ -132,10 +133,25 @@ html
         border:rgb(0, 41, 27) 1px dotted;
         margin-bottom: 1rem;
     }
-
+    /*Définit la déco du lien ICI*/
     #ici
     {
         color: rgb(0, 0, 0);
         text-decoration: none;
         font-weight: bold;
+    }
+
+    /*Définit la déco/mep de la dernière div*/
+    .block
+    {
+        background-color: rgba(4, 189, 170, 0.918);
+        padding-left: 2rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        color: black;
+        text-align: center;
+        font-size: 1.5rem;
     }
