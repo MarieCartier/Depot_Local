@@ -57,7 +57,7 @@ html
 
     .nav:hover
     {
-        background-color: rgb(2, 151, 136);
+        background-color: rgba(3, 218, 197, 0.877);
     }
     /*Fin menu de navigation*/
 
@@ -123,7 +123,7 @@ html
     /*Définit la déco/mep des colonnes*/
     .colonne
     {
-        background-color: rgba(4, 189, 170, 0.918);
+        background-color: rgba(3, 218, 197, 0.877);
         width: 33%;
         padding-left: 2rem;
         padding-right: 1rem;
@@ -143,7 +143,7 @@ html
     /*Définit la déco/mep de la dernière div*/
     .block
     {
-        background-color: rgba(4, 189, 170, 0.918);
+        background-color: rgbargba(3, 218, 197, 0.877);
         padding-left: 2rem;
         padding-right: 1rem;
         padding-bottom: 3rem;
@@ -165,7 +165,7 @@ html
 
     .école
     {
-        background-color: rgba(4, 189, 170, 0.918);
+        background-color: rgba(3, 218, 197, 0.877);
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
@@ -179,5 +179,6 @@ html
     .ps:hover
     {
         background-color: white;
+        padding: 5px
     }
     
