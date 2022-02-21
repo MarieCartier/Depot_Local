@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercices JavaScript</h1>
+    <script>
+
+function moyenne(tableau) {
+    var i = 0, summ = 0, nbLignes = tableau.length;
+    while (i < nbLignes) {
+        summ = summ + tableau[i++];
+}
+    return summ / nbLignes;
+}
+var tableau = [1, 5, 2, 3, 7];
+var a = moyenne(tableau);
+console.log(a)
+    </script>
+</body>
+</html>

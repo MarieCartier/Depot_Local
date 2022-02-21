@@ -11,3 +11,5 @@ alert(pn); // va afficher dans la boite de dialogue -> MarieCartier. Si on veut 
 //on peut aussi l'afficher ainsi :
 alert(prenom + nom);
 alert("Marie" + "Cartier");
+
+//Pour écrire sur plusieurs lignes, utiliser un saut de ligne qui se fait avec le signe \n.

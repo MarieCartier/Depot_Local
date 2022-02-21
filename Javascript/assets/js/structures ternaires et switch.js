@@ -43,6 +43,6 @@ switch(heure)
 }
 /*pour chaque cas on écrit case + valeur + :, puis break pour sortir du switch si la condition est validée. 
 Si on n'écrit pas break, la condition va exécuter tous les cas les uns après les autres sans sélectionner la valeur demandée.
-0 la fin, on ajouter un cas par défaut, dans le cas où la valeur entrée n'est pas dans les cas donnés.
+A la fin, on ajoute un cas par défaut, dans le cas où la valeur entrée n'est pas dans les cas donnés.
 Pour cela on écrit default + :. 
 si heure = 16, alors il sera affiché "il est 16", si heure = 15 alors il sera affiché "rien à afficher pour cette valeur".*/

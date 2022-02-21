@@ -54,30 +54,75 @@ else
 var a = prompt("Saisissez un nombre autre que 0");
 var b = prompt("Saisissez un second nombre autre que 0");
 var c = prompt("Entrez +, -, * ou /");
-var d = a+c+b;
-if (a == 0 && b == 0 || (c!="+" || c!="-" || c!="*" || c!="/"))
+var d = null;
+        
+if(c==="+")
+        {
+            d=parseInt(a)+parseInt(b);
+        }
+            else if (c==="-")
+            {
+                d=parseInt(a)-parseInt(b);
+            }
+                else if (c==="*")
+                {
+                    d=parseInt(a)*parseInt(b);
+                }
+                    else if (c==="/")
+                    {
+                        d=parseInt(a)/parseInt(b);
+                    } 
+                    
+if (a !== 0 || b !== 0 || (c === "+" || c === "-" || c === "*" || c === "/"))
+{
+    alert(d);
+}
+    else
     {
         alert("Erreur, mauvaise entrée");
     }
-        else
-        {
-            alert("Réponse inconnue");
-        }
-        
-if(c="+")
-        {
-            d=a+b;
-        }
-            elseif (c="-")
-            {
-                d=a-b;
-            }
-                elseif (c="*")
-                {
-                    d=a*b;
-                }
-                    elseif (c="/")
-                    {
-                        d=a/b;
-                    }                                    
-alert(d);
+
+//VÉRIFIÉ : OK
+
+
+//EX 1
+var n = prompt("entrez un nombre");
+var entier =
+
+while ()
+
+//
+
+
+//EX 2
+var n=prompt("entrez un nombre"); entier = 0
+while (entier < n)
+{
+    console.log(entier);
+    entier++;
+}
+//VÉRIFIÉ OK
+entier
+somme
+moy
+
+//EX 3
+
+
+//
+
+
+//EX 4
+
+var n=prompt("entrez un nombre"), x=prompt('entrez un second nombre');
+var m=0
+do
+{
+    produit=m*parseInt(x);
+    console.log(m + " x " + x + " = " + produit);
+    m++;
+}
+while (m<=n)
+
+//VÉRIFIÉ : OK
+

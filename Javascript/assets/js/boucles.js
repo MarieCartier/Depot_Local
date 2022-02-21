@@ -40,7 +40,7 @@ Tant que la variable x contient une valeur inférieure à 10, on va exécuter la
     }
     while (x<10);
 
-    /*Ici, la boucle va en plus calculer x+1 à chaque tou, jusqu'à 10 */
+    /*Ici, la boucle va en plus calculer x+1 à chaque tour, jusqu'à 10 */
 
 
 /*Boucle for = pour*, permet de répter une série d'instructions pour une valeur donnée, et jusqu'a une valeur seuil.

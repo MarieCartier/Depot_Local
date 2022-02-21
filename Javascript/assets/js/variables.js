@@ -31,3 +31,8 @@ alert(typeof(x));
 //afficher une variable
 alert(x);
 
+
+//fonctions utiles
+alert(variable) ou console.log(variable) //affiche la valeur de la variable passée en argument
+
+typeof variable //retourne le type d’une variable; peut être affiché (via alert ou console.log()) ou utilisé dans une condition.
