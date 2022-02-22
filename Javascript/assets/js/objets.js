@@ -51,22 +51,60 @@ en utilisant un constructeur et on créer un objet a partir de ce constructeur->
 Notre variable texte2 est donc une création d'objet puisqu'on a utilisé le mot clé new avec le constructeur String
  */
 
+
 //objet littéral
 var moi = 
 {
     prenom:"Pierre",
     nom:"Giraud",
-    age:"25"
+    age:"25";
 };
 //Nous avons créer un nouvel objet intitulé "moi", qui contient 3 paires de "nom-valeur"
-
 //On peut donc utiliser les valeurs stockées dans l'objet comme ceci:
 alert(moi.prenom); //en séparant le nom de l'objet par le nom de la valeur on accede à la valeur correspondant au nom, comme un chemin d'accès
+
 
 //objet avec new
 var moi = new Object();
 
 moi.prenom = "Pierre";
 moi.nom = "Giraud";
-moi.age = 25
-// On a définit les propriétés de l'objet sans définir le type d'objet.
+moi.age = 25;
+// On a définit les propriétés de l'objet sans définir le type d'objet, mais ne pas privilégier cette manière
+
+
+//Fonction objet avec constructeur
+
+/*on va préciser les propriétés et les méthodes dont les objets pourront bénéficier
+on utilise un constructeur pour créer un type d'objet, et on réutilise pour créer autant d'objets de ce type
+constructeurs les plus utilisés: String, Number, Object, Boolean, Array, Rejects, Function, Date*/
+
+function Personne(prenom, nom, age)
+{
+    this.prenom = prenom;  
+    this.nom = nom;
+    this.age = age;
+}
+
+// This sert de substitut au nom de l'objet. Exemple, si je souhaite créer un objet pierre de type Personne:
+var pierre = new Personne("Pierre", "Giraud", 25);
+alert(pierre.prenom); // Ici this est remplacé par pierre car c'esst le nom du nouvel objet. This sert donc de "générique" substituable.
+
+
+/*
+On accede aux objets par référence et non par valeur 
+*/
+//Exemple pour les variables :
+var x = 10;
+var y = x;
+y = 20;
+alert(x); 
+// Affichera x = 10, car attribuer la valeur de x à y puis changer la valeur de y ne modifie en rien la valeur attribuée à x
+
+//Exemple pour les objets
+var pierre = new personne("Piere", "Giraud", 25);
+var marie = pierre;
+marie.nom = "Cartier";
+alert(pierre.nom);
+/* Ici, pierre = "Cartier", car quand il s'agit d'objets, c'est la référence (.nom) qui compte, comme marie = pierre, 
+pierre prend la même valeur que marie puisque la même référence a été appelée */
