@@ -86,12 +86,23 @@ if (a !== 0 || b !== 0 || (c === "+" || c === "-" || c === "*" || c === "/"))
 
 
 //EX 1
-var n = prompt("entrez un nombre");
-var entier =
+var p = "", x = 1, y = 0;
 
-while ()
+do
+{
+    var a=prompt("Entrez un prénom n° " + x);
+    if (a.length != 0)
+    {
+    p=p+a+"\n";
+    x++;
+    y++;
+    }
+}
+while (a.length != 0) 
 
-//
+console.log(p, y);
+
+// VÉRIFIÉ : OK
 
 
 //EX 2
@@ -107,18 +118,37 @@ somme
 moy
 
 //EX 3
+var p = 0, y = 0, somme = 0;
 
+do
+{
+    var a = Number(prompt("Entrez un nombre"));
+    if (a!= 0)
+    {
+    p=p+a+"\n";
+    somme = somme + a;
+    y++;
+    
+    }
+}
+while (a!= 0) 
 
-//
+console.log(p, "Il y a " + y + " nombres");
+console.log("La somme de ces nombres est : " + somme);
+
+var moyenne = somme / y;
+
+console.log("La moyenne de ces nombres est : " + moyenne);
+
+// VÉRIFIÉ : OK
 
 
 //EX 4
 
-var n=prompt("entrez un nombre"), x=prompt('entrez un second nombre');
-var m=0
+var n=Number(prompt("entrez un nombre")), x=Number(prompt('entrez un second nombre')), m=0
 do
 {
-    produit=m*parseInt(x);
+    produit=m*(x);
     console.log(m + " x " + x + " = " + produit);
     m++;
 }
