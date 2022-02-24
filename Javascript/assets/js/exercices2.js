@@ -156,3 +156,24 @@ while (m<=n)
 
 //VÉRIFIÉ : OK
 
+
+//EX 5
+
+var mot = prompt('Entrez un mot');
+console.log(mot);
+var long = mot.length;
+console.log(long);
+//Ce morceau Fonctionne
+var p=""; // pour stocker les lettres
+var y = 0 //incrémenter la poition d'extraction
+
+do 
+{
+    var p=mot.substring(y, 1)+ "\n";
+    console.log(p);
+    y++;
+}
+
+while (p.length<=mot.length);
+
+console.log(p.length);
