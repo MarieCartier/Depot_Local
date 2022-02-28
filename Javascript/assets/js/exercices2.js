@@ -160,20 +160,71 @@ while (m<=n)
 //EX 5
 
 var mot = prompt('Entrez un mot');
-console.log(mot);
+console.log("mot entré : " + mot);
 var long = mot.length;
-console.log(long);
+console.log("longueur du mot : " + long);
 //Ce morceau Fonctionne
 var p=""; // pour stocker les lettres
-var y = 0 //incrémenter la poition d'extraction
+var y = 0 //incrémenter la position d'extraction
+var z = 1 // position fin d'extraction
 
 do 
 {
-    var p=mot.substring(y, 1)+ "\n";
-    console.log(p);
+    var p=mot.substring(y, z)+ "\n";
+    console.log("lettre extraite : " + p);
     y++;
+    z++;
 }
 
-while (p.length<=mot.length);
+while (y<=mot.length);
 
 console.log(p.length);
+
+// Vérifié : chaque lettre est extraite
+
+// Suite
+var mot = prompt('Entrez un mot');
+console.log("mot entré : " + mot);
+var long = mot.length;
+console.log("longueur du mot : " + long);
+var voy = 'a';
+console.log('voyelle cherchée :' + voy);
+var x = mot.indexOf(voy);
+console.log("position 1ere voyelle : " + mot.indexOf(voy));
+do
+{
+    console.log("position autre voyelle : " + mot.indexOf(voy, x++));
+}
+while (x<=mot.length)
+// Vérifié : affiche la position de la voyelle entrée
+
+//NON TERMINÉ
+
+
+// TABLEAUX //
+// EX 1
+
+var nblignes= Number(prompt('Entrez le nombre de lignes'));
+var tableau = Array (nblignes);
+var x = 0;
+
+/*
+do 
+{
+    tableau [x] = [prompt("Entrez donnée ligne" + x)];
+    x++
+}
+while (x<=nblignes)*/
+
+for ( var x = 0; x != nblignes; x++)
+{
+    tableau [x] = [prompt("Entrez donnée ligne" + x)];
+}
+
+document.write(tableau);
+
+
+
+// VÉRIFIÉ : OK
+
+
