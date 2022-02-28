@@ -5,27 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
-        <title>Intercepte la validation du formulaire</title>
-
-        <script>
-            function checkForm(f) {
-                alert("Vous vous appelez : " + f.elements['nom'].value + " " + f.elements['prenom'].value);
-                return false; // do not submit the form
-            }
-        </script>
+        <title>Exercices</title>
     </head>
     <body>
-        <h2>Intercepte la validation du formulaire</h2>
-        <form id="form1" name="form1" onSubmit="return checkForm(this);">
-            <input type="text" name= "nom" value="Dupont" />
-            <input type="text" name= "prenom" value="Eric" />
-            <input type="submit" id="idSubForm1" name="subForm1" value="Connection" />
-        </form>
-       <!-- <script>document.write('<h1>Mon 1er script</h1>');</script>   
-        <p>Rien à ajouter</p>  
+
+       <script>
+        
+function GetInteger() // lire un nb entré au clavier
+{
+    var a = Number(prompt('Entrez un nombre')); // variable dans laquelle stocker la valeur demandée
+    return a; //retourner la variable en attendant utilisation du nb de lignes
+}
+
+function InitTab() // déclaration du tableau avec nb de lignes
+{
+    var b = Array(nblignes); // tableau avec nb de lignes défini dans GetInteger
+    return b; // retourner la variable en attendant utilisation du tableau
+}
+
+    var nblignes=GetInteger(); // METTRE A LA FIN
+    console.log(nblignes); 
+
+    var tableau=InitTab(); // METTRE A LA FIN
+    console.log(tableau); 
+
+function SaisieTab() // saisie données dans tableau
+{
+    var i = 1;
+    do
+    {
+        tableau[i] = [prompt("Entrez donnée ligne : " + i)];
+        i++;
+    }
+    while(i<=nblignes);
+    return tableau;
+}
+
+var donnees=SaisieTab(); // METTRE A LA FIN
+document.write(donnees);
 
 
-        <script src="exercice1.js">
-        </script> -->
+
+function AfficheTab() // Affiche les données
+{
+    document.write(donnees + "\n");
+}
+
+// VÉRIFIÉ : OK
+
+//Suite
+
+function InfoTab()
+{
+    var somme=0, x=0, y=0, z=nblignes;
+    do
+    {
+        x=x+donnees[y];
+        somme= somme + x;
+        y++;
+    }
+    while (y<=z)
+    document.write(somme);
+
+
+    /*var max=0;
+    for (var i=0; i<=nblignes; i++)
+    {
+        donnees[i]>max
+        max=tableau[i];
+    }
+    return max;*/
+}
+
+donneeMax=InfoTab;
+document.write(donneeMax);
+
+        </script>
      </body>
 </html>

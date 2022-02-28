@@ -198,7 +198,7 @@ do
 while (x<=mot.length)
 // Vérifié : affiche la position de la voyelle entrée
 
-//NON TERMINÉ
+                                                                        //NON TERMINÉ
 
 
 // TABLEAUX //
@@ -227,4 +227,50 @@ document.write(tableau);
 
 // VÉRIFIÉ : OK
 
+// EX 2
+
+function GetInteger() // lire un nb entré au clavier
+{
+    var a = Number(prompt('Entrez un nombre')); // variable dans laquelle stocker la valeur demandée
+    return a; //retourner la variable en attendant utilisation du nb de lignes
+}
+
+function InitTab() // déclaration du tableau avec nb de lignes
+{
+    var b = Array(nblignes); // tableau avec nb de lignes défini dans GetInteger
+    return b; // retourner la variable en attendant utilisation du tableau
+}
+
+var nblignes = GetInteger(); // METTRE A LA FIN
+console.log(nblignes); 
+
+var tableau=InitTab(); // METTRE A LA FIN
+console.log(tableau); 
+
+function SaisieTab() // saisie données dans tableau
+{
+    var i = 0;
+    do
+    {
+        tableau[i] = [prompt("Entrez donnée ligne : " + i)];
+        i++;
+    }
+    while(i<=nblignes);
+    return tableau;
+}
+
+var donnees=SaisieTab(); // METTRE A LA FIN
+console.log(donnees);
+
+// VÉRIFIÉ : OK
+
+//Suite
+
+function AfficheTab() // Affiche les données
+{
+    document.write(donnees);
+}
+
+monTableau=AfficheTab()
+document.write(monTableau);
 

@@ -31,11 +31,9 @@ function multiplication(a,b)//l'appel de la fonction reste le même, il faut jus
     return(a*b); //là le résultat sera stocké avant d'être appelé dans une variable
 }
 
-var x = multiplication(4,5); //Ici on effecte le résultat de la fonction multiplication à la variable x
+var x = multiplication(4,5); //Ici on affecte le résultat de la fonction multiplication à la variable x
 var y = multiplication(22, 7);
 
 var z = multiplication(x,y); //On peut tout à fait réutiliser le résultat autant de fois que l'on veut, et même les imbriquer.
 
 alert(z); // return ne fait que stocker, il faut donc penser à demander d'afficher le résultat avec la fonction alert
-
-
