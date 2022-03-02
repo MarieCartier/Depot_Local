@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Exercice</title>    
+    </head>
+    <body>
+      <p id="demo"></p>        
+      <script>
+      function produit(x,y)
+      {
+          var cube = x**2;
+          var resultat = x*y;
+          document.getElementById("demo").innerHTML = "<img src=img/papillon.jpg>";
+          document.write("Le cube de " + x + " est égal à " + cube + "<br/>");
+          document.write("Le produit de " +  x + " x " + y + " est égal à " + resultat);
+      }
+
+      var x = Number(prompt('entrez un nombre')), y = Number(prompt('entrez un multiplicateur'));
+      produit(x,y);
+
+
+
+
+        function strtok(str1, str2, n)
+        {
+            var str1 = prompt("Entrez une série de mots séparés par un caractère");
+            console.log(str1);
+            var str2 = prompt("Entrez ce même caractère séparateur");
+            console.log(str2);
+            var n = prompt("Entrez le numéro du mot à extraire");
+            console.log(n);
+            var strSep = str1.split(str2);
+            console.log(strSep);
+            var motExt = strSep[n];
+            document.write("le mot n° " +n+ " est : " + motExt);
+        }
+
+        strtok(str1, str2, n);
+
+//VÉRIFIÉ OK
+      </script> 
+    </body>
+</html>

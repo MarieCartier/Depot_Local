@@ -227,50 +227,92 @@ document.write(tableau);
 
 // VÉRIFIÉ : OK
 
-// EX 2
+// EX 2+3
 
 function GetInteger() // lire un nb entré au clavier
-{
-    var a = Number(prompt('Entrez un nombre')); // variable dans laquelle stocker la valeur demandée
-    return a; //retourner la variable en attendant utilisation du nb de lignes
-}
+    {
+        var nblignes = Number(prompt('Entrez le nombre de lignes désirées')); // variable dans laquelle stocker la valeur demandée
+        return nblignes; //retourner la variable en attendant utilisation du nb de lignes
+    }
+
+var nblignes=GetInteger();    
 
 function InitTab() // déclaration du tableau avec nb de lignes
-{
-    var b = Array(nblignes); // tableau avec nb de lignes défini dans GetInteger
-    return b; // retourner la variable en attendant utilisation du tableau
-}
+    {
+        var tableau = Array(nblignes); // tableau avec nb de lignes défini dans GetInteger
+        return tableau; // retourner la variable en attendant utilisation du tableau
+    }
 
-var nblignes = GetInteger(); // METTRE A LA FIN
-console.log(nblignes); 
-
-var tableau=InitTab(); // METTRE A LA FIN
-console.log(tableau); 
+var tableau=InitTab();
 
 function SaisieTab() // saisie données dans tableau
-{
-    var i = 0;
-    do
     {
-        tableau[i] = [prompt("Entrez donnée ligne : " + i)];
-        i++;
+        var i = 0;
+        do
+        {
+            tableau[i] = [Number(prompt("Entrez donnée ligne : " + (i+1)))];
+            i++;
+        }
+        while(i<nblignes);
+        return tableau;
     }
-    while(i<=nblignes);
-    return tableau;
-}
-
-var donnees=SaisieTab(); // METTRE A LA FIN
-console.log(donnees);
-
-// VÉRIFIÉ : OK
-
-//Suite
 
 function AfficheTab() // Affiche les données
+    {
+        document.write("Les données du tableau sont : " + tableau + ". \n");
+    }
+
+console.log("le nb de lignes est : " + nblignes);
+
+function InfoTab() // Affiche moyenne et donnée max
+    {
+        var somme=0;
+        for(var x = 0; x<tableau.length; x++)
+            {
+                somme= somme + parseInt(tableau[x]);
+            }
+        console.log("la somme des lignes : " + somme);
+
+        var moyenne=somme/nblignes;
+        document.write("\n La moyenne des lignes est : " + moyenne + "\n");
+
+        var vmax = 0, y = 0; // pour stocker valeur max
+        do
+            {
+                if (parseInt(tableau[y])>vmax) // si la valeur de la ligne x est supérieure à vmax
+                    {
+                        vmax=tableau[y]; // alors vmax prend la valeur de la ligne x
+                    }
+                y++;
+            }
+        while (y < tableau.length) // x = n° de ligne du tableau, ne pas dépasser nb lignes total, incrémenter a chaque passage
+        document.write("\n la valeur max est : " + vmax);
+    }
+
+function triTab()
 {
-    document.write(donnees);
+    var sup; // variable booléenne
+    do
+    {
+        sup = false; // sup vaut faux
+        for(i=0; i < tableau.length; i++) // variable i vaut zéro, tant que i plus petit que nb lignes, incrémenter i
+        {
+            if (parseInt(tableau[i]) > parseInt(tableau [i+1])) // si ligne 1 plus grande que ligne 2
+            {
+                var stock = tableau[i]; // stocker valeur ligne 1 dans stock
+                tableau[i] = tableau[i+1]; // donner valeur ligner 2 à ligner 1 (donc valeur + grande des 2)
+                tableau[i+1] = stock; // donner valeur stock à ligne 1 (donc valeur la + petite des 2)
+                sup = true; // donne valeur vrai à sup si ligne 1 > ligne 2
+            }
+        }
+    }
+    while(sup) // faire jusqu'à ce que sup ait la valeur faux, donc jusqu'a ce que ligne 1 < ligne 2
+    document.write("\n Les données triées du tableau : " + tableau);
 }
 
-monTableau=AfficheTab()
-document.write(monTableau);
+SaisieTab();
+AfficheTab();
+InfoTab();
+triTab();
 
+//VÉRIFIÉ : OK
