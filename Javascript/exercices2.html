@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Magique</title>
+</head>
+<body>
+    <h2>Saisissez un texte puis pressez le bouton 'Contrôler'</h2>
+
+    <input type="text" name="txtarea" id="txtarea" value=""> <!-- zone de texte dans le doc-->
+    <input type="button" name="controle" id="controle" value="Contrôler"> <!--bouton avec la valeur "controler"-->
+
+    <h2 id="label1">Entrez votre proposition</h2>
+    <input id="textBox1" value="">
+    <input type="button" id="button1" value="Verifier" onClick="verif(1, 100);"> 
+
+
+    <script>
+    var txtarea = document.getElementById("txtarea"); // variable pour stocker la balise avec id "txt area"
+    var controler = document.getElementById("controle"); // variable pour stocker la baliste avec id "controle"
+
+    controler.addEventListener("click", function() // appel de la fonction controler, ajout d'un gestionnaire d'evenement (au clic du bouton déclencher la fonction)
+    {
+        alert("Vous avez saisi : " + txtarea.value); // au clic, une fenetre affichera "vous avez saisi" et le contenu (value) de la balise id "txtarea".
+    });
+    
+    // nombre magique :
+
+    var bouton = getElementById("button1");
+    function verif(min, max)
+    {
+        var min = Math.ceil(min); //minimum arrondi au dessus
+        var max = Math.floor(max); // maximum arrondi en dessous
+        var propo = document.getElementById('textBox1').value;
+        var label1 = document.getElementById("label1");
+        var nbRandom = Math.floor(Math.random() * (max - min + 1)) + min; // chiffre aléatoire multiplié par max-min+1, et additionné de min, est arrondi en dessous.
+        console.log(nbRandom);
+        while(propo!=nbRandom)
+        {
+            if(propo==nbRandom)
+            {
+                label1.innerHTML = " Gagné !";
+            }
+            else if(propo>nbRandom)
+            {
+                label1.innerHTML = " Trop grand !";
+            }
+            else if(propo<nbRandom)
+            {
+                label1.innerHTML = " Trop petit !";
+            }
+        }
+    }
+
+    </script>
+ </body>
+ </html>
