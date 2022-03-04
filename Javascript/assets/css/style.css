@@ -1,0 +1,28 @@
+legend
+{
+    color: brown;
+    font-weight: bold;
+}
+
+.obl
+{
+    color: red;
+}
+
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2px;
+    padding: 3px;
+    margin: 0%;
+    border: 0px;
+}
+
+p
+{
+    display: flex;
+    width: auto;
+    gap : 10px;
+}

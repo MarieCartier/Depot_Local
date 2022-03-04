@@ -28,17 +28,14 @@
     
     // nombre magique :
 
-    var bouton = getElementById("button1");
     function verif(min, max)
     {
         var min = Math.ceil(min); //minimum arrondi au dessus
         var max = Math.floor(max); // maximum arrondi en dessous
-        var propo = document.getElementById('textBox1').value;
+        var propo = document.getElementById("textBox1").value;
         var label1 = document.getElementById("label1");
         var nbRandom = Math.floor(Math.random() * (max - min + 1)) + min; // chiffre aléatoire multiplié par max-min+1, et additionné de min, est arrondi en dessous.
         console.log(nbRandom);
-        while(propo!=nbRandom)
-        {
             if(propo==nbRandom)
             {
                 label1.innerHTML = " Gagné !";
@@ -51,7 +48,6 @@
             {
                 label1.innerHTML = " Trop petit !";
             }
-        }
     }
 
     </script>
