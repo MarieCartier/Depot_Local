@@ -1,2 +1,4 @@
-var societe = nex RegExp("[A-Za-z]+");
-var filtreSoc= filtre.test(form.getElementById("société"));
+var societe = new RegExp("^[A-Za-z]+$");
+
+var filtreSoc= societe.test(document.getElementById("société").value);
+console.log(filtreSoc);

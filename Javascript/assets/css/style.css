@@ -13,7 +13,7 @@ fieldset
 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: auto;
     gap: 2px;
     padding: 3px;
     margin: 0%;
@@ -25,4 +25,31 @@ p
     display: flex;
     width: auto;
     gap : 10px;
+}
+
+#projet
+{
+    overflow: auto;
+    height: 100px;
+}
+
+.label
+{
+    width: 180px;
+}
+
+#choix
+{
+    width: 180px;
+}
+
+.bouton
+{
+    padding: 5px;
+    font-weight: bold;
+}
+
+#bouton
+{
+    margin-left: 140px;
 }

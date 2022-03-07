@@ -14,7 +14,7 @@
 
     <h2 id="label1">Entrez votre proposition</h2>
     <input id="textBox1" value="">
-    <input type="button" id="button1" value="Verifier" onClick="verif(1, 100);"> 
+    <input type="button" id="button1" value="Verifier"> 
 
 
     <script>
@@ -27,15 +27,16 @@
     });
     
     // nombre magique :
+    var min = Math.ceil(1); //minimum arrondi au dessus
+    var max = Math.floor(100); // maximum arrondi en dessous
+    var nbRandom = Math.floor(Math.random() * (max - min + 1)) + min; // chiffre aléatoire multiplié par max-min+1, et additionné de min, est arrondi en dessous.
+        console.log(nbRandom);
 
-    function verif(min, max)
+    function verif()
     {
-        var min = Math.ceil(min); //minimum arrondi au dessus
-        var max = Math.floor(max); // maximum arrondi en dessous
         var propo = document.getElementById("textBox1").value;
         var label1 = document.getElementById("label1");
-        var nbRandom = Math.floor(Math.random() * (max - min + 1)) + min; // chiffre aléatoire multiplié par max-min+1, et additionné de min, est arrondi en dessous.
-        console.log(nbRandom);
+        
             if(propo==nbRandom)
             {
                 label1.innerHTML = " Gagné !";
@@ -50,6 +51,7 @@
             }
     }
 
+    document.getElementById("button1").addEventListener("click", verif);
     </script>
  </body>
  </html>
