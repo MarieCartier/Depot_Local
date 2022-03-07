@@ -16,52 +16,52 @@
         <fieldset>
 
             <p><label for="société" class="label">Société :</label>
-            <input type="text" name="société" id="société" class="txtArea" required>
+            <input type="text" name="société" id="société" class="txtArea">
             <label for="obl" class="obl"> *</label></p>
 <br>
             <p><label for="contacter" class="label">Personne à contacter :</label>
-            <input type="text" name="contacter" id="contacter" class="txtArea" required>
+            <input type="text" name="contacter" id="contacter" class="txtArea">
             <label for="obl" class="obl"> *</label></p>
 <br>
             <p><label for="adresse" class="label">Adresse de l'entreprise :</label>
             <input type="text" name="adresse" id="adresse" class="txtArea"></p>
 <br>
             <p><label for="codePostal" class="label">Code postal :</label>
-            <input type="text" name="codePostal" id="codePostal" class="txtArea" required>
+            <input type="text" name="codePostal" id="codePostal" class="txtArea">
             <label for="obl" class="obl"> *</label></p>
 <br>
             <p><label for="ville" class="label">Ville :</label>
-            <input type="text" name="ville" id="ville" class="txtArea" required>
+            <input type="text" name="ville" id="ville" class="txtArea">
             <label for="obl" class="obl"> *</label></p>
 <br>
             <p><label for="email" class="label">E-mail :</label>
-            <input type="text" name="email" id="email" class="txtArea" required>
+            <input type="text" name="email" id="email" class="txtArea">
             <label for="obl" class="obl"> *</label></p>
 <br>
             <p><label for="tel" class="label">Téléphone :</label>
             <input type="text" name="tel" id="tel" class="txtArea"></p>
 
-            <p><label for="projet" class="label">Sélectionnez l'environnement technique du projet :</label>
-            <textarea name="projet" class="txtArea" id="projet"></textarea></p>
+            <p><label for="choix" class="label">Sélectionnez l'environnement technique du projet :</label>
+            <textarea name="projet" class="txtArea" id="textArea"></textarea></p>
             <select name="projet" id="choix">
                 <option value="Choisissez" selected>Choisissez</option>
                 <option value="Acces">Access</option>
                 <option value="Java">Java</option>
                 <option value="Delphi">Delphi</option>
                 <option value="Windev">Windev</option>
-                <option value="Visual">Visual Basic</option>
-                <option value="Power">Power Builder</option>
+                <option value="Visual Basic">Visual Basic</option>
+                <option value="Power Builder">Power Builder</option>
                 <option value="Internet">Internet</option>
                 <option value="Intranet">Intranet</option>
-                <option value="Windows">Windows NT</option>
+                <option value="Windows NT">Windows NT</option>
                 <option value="Unix">Unix</option>
-                <option value="SQL">SQL Servce</option>
+                <option value="SQL Server">SQL Server</option>
                 <option value="Oracle">Oracle</option>
-                <option value="Autres">Autres...</option>
+                <option value="Autres...">Autres...</option>
             </select>
 
         </fieldset>
-        <p id="bouton"><input type="submit" value="Envoyer" class="bouton">
+        <p id="boutons"><input type="submit" value="Envoyer" class="bouton" id="envoyer">
         <input type="reset" value="Effacer" class="bouton"></p>
     </form>
     <script src="assets/js/contact.js"></script>

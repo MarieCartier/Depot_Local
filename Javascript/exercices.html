@@ -8,6 +8,7 @@
         <title>Exercice</title>    
     </head>
     <body>
+        <!--
       <p id="demo"></p>        
       <script>
       function produit(x,y)
@@ -43,5 +44,20 @@
 
 //VÉRIFIÉ OK
       </script> 
-    </body>
+    -->
+
+<form action= "" id="form1" onSubmit="return checkForm(this);">
+        <input type="text" name="chp" value="essai" />
+        <input type= "submit" value="Valider" />
+    </form>
+
+    <script >
+
+        function checkForm(f) {
+            alert("Contrôle champ " + f.elements['chp'].value);
+            return false; // n’envoie pas le formulaire
+        }
+
+    </script>
+</body>
 </html>
