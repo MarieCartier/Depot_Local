@@ -6,7 +6,7 @@
   <meta name="description" content="Jarditou" />
   <title>Contact</title>
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png" />
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
     <body>
 
@@ -39,33 +39,41 @@
                         <p>* Ces zones sont obligatoires</p>
                             <!--1er champs de formulaire-->
                             <fieldset>
-                                <!--Zones de textes-->
+                                
                                 <legend>Vos coordonées</legend>
+                                    <!--Zones de textes-->
                                     <label for="nom">Votre nom* :</label>
-                                    <input type="text" name="nom" id="nom" required>
+                                    <input type="text" name="nom" id="nom" placeholder="Dupont">
+                                    <div class="required" id="nomM"></div>
     <br>
-                                    <label for="prénom">Votre prénom* :</label>
-                                    <input type="text" name="prénom" id="prénom" required>
+                                    <label for="prenom">Votre prénom* :</label>
+                                    <input type="text" name="prénom" id="prenom" placeholder="Jean-Pierre">
+                                    <div class="required" id="prenomM"></div>
     <br>                            <!--Boutons radio-->
-                                    <p>Sexe* :</p>
-                                        <input type="radio" name="sexe1" id="sexe1" value="féminin">
+                                    <label>Sexe* :</label>
+                                        <input type="radio" name="sexe" id="sexe1" value="féminin" class="sexe">
                                         <label for="sexe1">Féminin</label>
-                                        <input type="radio" name="sexe2" id="sexe2" value="masculin">
-                                        <label for="sexe2">Masculin</label><br>
+                                        <input type="radio" name="sexe" id="sexe2" value="masculin" class="sexe">
+                                        <label for="sexe2">Masculin</label>
+                                        <div class="required" id="sexeM"></div>
+    <br>                            <!--Date-->
                                     <label for="naissance">Date de naissance* :</label>
-                                    <input type="date" name="naissance" id="naissance" required>
+                                    <input type="date" name="naissance" id="naissance">
+                                    <div class="required" id="dateM">Marche pas</div>
     <br>                            <!--Zones de texte-->
                                     <label for="code">Code postal* :</label>
-                                    <input type="text" name="code postal" id="code" required>
+                                    <input type="text" name="code postal" id="code" placeholder="80000">
+                                    <div class="required" id="codeM"></div>
     <br>
                                     <label for="adresse">Adresse :</label>
-                                    <input type="text" name="adresse" id="adresse">
+                                    <input type="text" name="adresse" id="adresse" placeholder="3 rue des Prés">
     <br>
                                     <label for="ville">Ville :</label>
-                                    <input type="text" name="ville" id="ville">
+                                    <input type="text" name="ville" id="ville" placeholder="Amiens">
     <br>
                                     <label for="email">Email* :</label>
-                                    <input type="text" name="email" id="email" placeholder="dave.looper@afpa.fr" required>
+                                    <input type="text" name="email" id="email" placeholder="dave.looper@afpa.fr">
+                                    <div class="required" id="emailM"></div>
     <br>
                             </fieldset>
                             <!--2nd champ de formulaire-->
@@ -73,23 +81,29 @@
                                 <!--Liste déroulante-->
                                 <legend>Votre demande</legend>
                                 <label for="sujet">Sujet* :</label>
-                                <select id="sujet" required>
+                                <select id="sujet">
                                     <option value="" selected>Veuillez sélectionner un sujet</option>
                                     <option value="commandes">Mes commandes</option>
                                     <option value="question">Question sur un produit</option>
                                     <option value="reclamation">Réclamation</option>
                                     <option value="autres">Autres</option>
                                 </select>
+                                <div class="required" id="sujetM">Marche pas</div>
+
 <br>                            <!--Zone de texte-->
                                 <label for="question">Votre question* :</label>
-                                <textarea name="question" id="question" cols="30" rows="2" required></textarea>
+                                <textarea name="question" id="question" cols="30" rows="2" placeholder="Tapez votre question ici."></textarea>
+                                <div class="required" id="questionM"></div>
                             </fieldset>
 <br>                    <!--Case à cocher-->
-                        <input type="checkbox" name="traitement informatique" id="traitement" required>
-                        <label for="traitement">* J'accepte le traitement informatique de ce formulaire</label>
+                        <input type="checkbox" name="traitement informatique" id="traitement">
+                        <label for="traitement" id="traitement">* J'accepte le traitement informatique de ce formulaire</label>
+                        <div class="required" id="traitementM"></div>
 <br>                    <!--Boutons envoyer/annuler-->
-                        <input type="submit" value="Envoyer">
-                        <input type="reset" value="Annuler">
+                        <span>
+                            <input type="submit" value="Envoyer" id="envoyer">
+                            <input type="reset" value="Annuler">
+                        </span>
                     </form>
             </aside>
             <aside class="aside3"> COLONNE DROITE</aside>
@@ -103,6 +117,7 @@
                 <a href="https://www.google.com/search?q=plan+du+site&oq=plan+du+site&aqs=chrome..69i57j0i512l9.1799j0j9&sourceid=chrome&ie=UTF-8" title="plan du site">Plan du site</a>
             </nav>
         </footer>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
 

@@ -28,57 +28,133 @@ choix.addEventListener("change", afficheChoix);
 //FILTRES
 
 //Filtre société
+var societe = document.getElementById("societe");
+var socMissing = document.getElementById("socMissing");
 var filtre1 = new RegExp("^[A-Za-z0-9]+$");
-var filtreSoc= filtre1.test(document.getElementById("société").value);
 
 //Filtre personne à contacter
+var contact = document.getElementById("contacter");
+var contMissing = document.getElementById("contMissing");
 var filtre2 = new RegExp("^[A-Za-z]+$");
-var filtreContact= filtre2.test(document.getElementById("contacter").value);
 
 //Filtre code postal
+var code = document.getElementById("codePostal")
+var codeMissing = document.getElementById("codeMissing");
 var filtre3 = new RegExp("^[0-9]{5}$");
-var filtreCode= filtre3.test(document.getElementById("codePostal").value);
 
 //Filtre Ville
+var ville = document.getElementById("ville");
+var villeMissing = document.getElementById("villeMissing");
 var filtre4 = new RegExp("^[A-Za-z]+$");
-var filtreVille= filtre4.test(document.getElementById("ville").value);
 
 //Filtre mail
-var filtre5 = new RegExp("^[@]{1}$");
-var filtreMail= filtre5.test(document.getElementById("email").value);
+var mail = document.getElementById("email");
+var mailMissing = document.getElementById("mailMissing");
+var filtre5 = new RegExp("^[a-z0-9. -]+[@]{1}[a-z0-9. -]+$");
 
-function filtres()
+//Bouton envoyer
+var envoyer = document.getElementById("envoyer");
+envoyer.addEventListener("click", filtres);
+
+//Fonction à appliquer
+function filtres(e)
 {
-    if(filtreSoc===true)
+    //Société
+    var filtreSoc= filtre1.test(societe.value);
+ 
+    if(societe.value=="")
     {
-        alert("Société : Veuillez entrez au moins un caractère");
+        socMissing.textContent = "Veuillez entrez au moins un caractère";
+        e.preventDefault();
     }
+        else if(filtreSoc==false)
+        {
+            socMissing.textContent = "Veuillez entrez des caractères valides";
+            e.preventDefault();
+        }
+            else
+            {
+                socMissing.textContent = "OK !";
+                socMissing.style.color = "green";
+            }
 
-    if(filtreContact===false)
-    {
-        alert("Personne à contacter : Veuillez entrez au moins un caractère");   
-    }
+    //Contact
+    var filtreContact= filtre2.test(contact.value);
 
-    if(filtreCode===false)
+    if(contact.value=="")
     {
-        alert("Code Postal : Veuillez entrez 5 chiffres");
+        contMissing.textContent = "Veuillez entrez au moins un caractère";
+        e.preventDefault();
     }
+        else if(filtreContact==false)
+        {
+            contMissing.textContent = "Veuillez entrez des caractères valides";
+            e.preventDefault();
+        }
+            else
+            {
+                contMissing.textContent = "OK !";
+                contMissing.style.color = "green";
+            }
 
-    if(filtreVille===false)
-    {
-        alert("Ville : Veuillez entrez au moins un caractère");   
-    }
+    //Code postal
+    var filtreCode = filtre3.test(code.value);
 
-    if(filtreMail===false)
+    if(code.value=="")
     {
-        alert("E-mail : Veuillez entrez une adresse avec @");
+        codeMissing.textContent = "Veuillez entrez 5 chiffres";
+        e.preventDefault();
     }
+        else if(filtreCode==false)
+        {
+            codeMissing.textContent = "Veuillez entrez 5 chiffres";
+        }
+            else
+            {
+                codeMissing.textContent = "OK !";
+                codeMissing.style.color = "green";
+            }
+
+    //Ville
+    var filtreVille= filtre4.test(ville.value);
     
-    return false;
+    if(ville.value=="")
+    {
+        villeMissing.textContent = "Veuillez entrez au moins un caractère";
+        e.preventDefault();
+    }
+        else if(filtreVille===false)
+        {
+            villeMissing.textContent = "Veuillez entrez des caractères valides";
+            e.preventDefault();
+        }            
+            else
+            {
+                villeMissing.textContent = "OK !";
+                villeMissing.style.color = "green";
+            }
+
+    //Mail
+    var filtreMail= filtre5.test(mail.value);
+
+    if(mail.value=="")
+    {
+        mailMissing.textContent = "Veuillez entrez une adresse mail avec @";
+        e.preventDefault();
+    }
+        else if(filtreMail===false)
+        {
+            mailMissing.textContent = "Veuillez entrez une adresse mail avec @";
+            e.preventDefault();
+        }
+            else
+            {
+                mailMissing.textContent = "OK !";
+                mailMissing.style.color = "green";
+            }
 }
 
 
 
 
-var envoyer = document.getElementById("envoyer")
-envoyer.addEventListener("click", filtres)
+

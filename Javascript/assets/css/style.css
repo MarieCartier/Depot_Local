@@ -7,40 +7,31 @@ legend
 .obl
 {
     color: red;
+    width: auto;
+}
+
+label
+{
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    font-weight: bold;
 }
 
 fieldset
 {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    gap: 2px;
-    padding: 3px;
-    margin: 0%;
     border: 0px;
+    margin-left: 50px;
 }
 
-p
+textArea
 {
-    display: flex;
-    width: auto;
-    gap : 10px;
-}
-
-#texteArea
-{
-    overflow: auto;
-    height: 100px;
-}
-
-.label
-{
-    width: 180px;
+    height: 70px;
 }
 
 #choix
 {
-    width: 180px;
+    margin: 10px;
 }
 
 .bouton
@@ -52,4 +43,10 @@ p
 #boutons
 {
     margin-left: 140px;
+}
+
+.missing
+{
+    color: red;
+    font-style: italic;
 }
