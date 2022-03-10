@@ -16,12 +16,18 @@ var filtre3 = new RegExp("^[0-9]{5}$");
 //Filtre email
 var email = document.getElementById("email");
 var emailM = document.getElementById("emailM");
-var filtre6 = new RegExp("^[a-z0-9.-]+@[a-z0-9.-]{2,}.[a-z]{2,4}$");
+var filtre4 = new RegExp("^[a-z0-9.-]+@[a-z0-9.-]{2,}.[a-z]{2,4}$");
 
 //Filtre question
 var question = document.getElementById("question");
 var questionM = document.getElementById("questionM");
-var filtre7 = new RegExp("^[A-Za-z]+$");
+var filtre5 = new RegExp("^[A-Za-z]+$");
+
+//Filtre naissance
+var naissance = document.getElementById("naissance");
+var naissanceM = document.getElementById("naissanceM");
+var filtre6 = new RegExp("^[0-9]{4}-[0-9]{2}-[0-9]{2}$");
+
 
 //Bouton envoyer
 var envoyer = document.getElementById("envoyer");
@@ -84,7 +90,7 @@ function filtres(e)
             }
 
     //Mail
-    var filtreEmail= filtre6.test(email.value);
+    var filtreEmail= filtre4.test(email.value);
 
     if(email.value=="")
     {
@@ -102,7 +108,7 @@ function filtres(e)
             }
 
     //Question
-    var filtreQuestion= filtre7.test(question.value);
+    var filtreQuestion= filtre5.test(question.value);
 
     if(question.value=="")
     {
@@ -135,27 +141,37 @@ function filtres(e)
         }
 
     //Date de naissance
-    var date = document.getElementById("date");
-    var dateM = document.getElementById("dateM");
-    if(date.value=="jj/mm/aaaa")
+    var filtreNaissance= filtre6.test(naissance.value);
+
+    if(naissance.value=="")
     {
-        dateM = "Entrez votre date de naissance";
+        naissanceM.textContent = "Veuillez entrer votre date de naissance";
         e.preventDefault();
     }
+       else if(filtreNaissance==false)
+        {
+            naissanceM.textContent = "Veuillez entrer une date au format JJ/MM/AAAA";
+            e.preventDefault();
+        }         
+            else
+            {
+                naissanceM.textContent = "";
+            }
+
 
     //Sujet
-    var sujet = document.getElementsById("sujet");
-    var sujetM = document.getElementById("sexeM");
+    var sujet = document.getElementById("sujet");
+    var sujetM = document.getElementById("sujetM");
 
 
-    if (sujet[1].checked || sujet[2].checked || sujet[3].checked || sujet[4].checked)
+    if (sujet.value == "")
     {
-        sujetM.textContent="";
+        sujetM.textContent = "Veuillez sélectionner le sujet de votre demande";
+        e.preventDefault();
     }
         else
         {
-            sujetM.textContent = "Veuillez sélectionner le sujet de votre demande";
-            e.preventDefault();
+            sujetM.textContent="";
         }
 
 }
