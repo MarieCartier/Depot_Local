@@ -113,9 +113,7 @@ while (entier < n)
     entier++;
 }
 //VÉRIFIÉ OK
-entier
-somme
-moy
+
 
 //EX 3
 var p = 0, y = 0, somme = 0;
@@ -144,15 +142,15 @@ console.log("La moyenne de ces nombres est : " + moyenne);
 
 
 //EX 4
-
-var n=Number(prompt("entrez un nombre")), x=Number(prompt('entrez un second nombre')), m=0
+        //10                                     b                                                   
+var n=Number(prompt("entrez un nombre")), x=Number(prompt('entrez un second nombre')), m=0;
 do
 {
-    produit=m*(x);
-    console.log(m + " x " + x + " = " + produit);
+    produit=m*(b);
+    console.log(m + " x " + b + " = " + produit);
     m++;
 }
-while (m<=n)
+while (m<=10)
 
 //VÉRIFIÉ : OK
 
