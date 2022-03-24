@@ -1,0 +1,328 @@
+[22-Mar-2022 16:49:27 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:16:00 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:19:12 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:19:35 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:20:49 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:21:03 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:21:08 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:21:11 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:21:27 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:21:33 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:30:39 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:42:51 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:43:40 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:44:03 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:44:04 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:44:04 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:47:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '" : Ouh là pas bien "' (T_CONSTANT_ENCAPSED_STRING) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 32
+[23-Mar-2022 09:48:12 Europe/Berlin] Ouh là pas bien
+[23-Mar-2022 09:48:12 Europe/Berlin] /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php l.32 : Ouh là pas bien 
+[23-Mar-2022 10:44:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'exercice2' (T_STRING) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 58
+[23-Mar-2022 10:46:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 72
+[23-Mar-2022 11:17:57 Europe/Berlin] PHP Notice:  Undefined variable: NbrCol in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 61
+[23-Mar-2022 11:17:57 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 11:17:57 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php:0
+[23-Mar-2022 11:22:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 88
+[23-Mar-2022 11:38:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 127
+[23-Mar-2022 11:44:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 86
+[23-Mar-2022 12:49:35 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 124
+[23-Mar-2022 12:49:35 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 12:49:35 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php:0
+[23-Mar-2022 13:29:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '"e"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bonjour.php on line 156
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP Notice:  Undefined variable: jour in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:13:43 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:15:09 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:15:09 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:15:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:15:26 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:15:26 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:15:26 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:15:27 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 14:28:12 Europe/Berlin] PHP Notice:  Undefined variable: mois in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 29
+[23-Mar-2022 14:28:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 14:28:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:02:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:02:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:02:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:05:39 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:05:39 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:05:39 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:05:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:10:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 100
+[23-Mar-2022 15:10:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:10:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:12:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected '/' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 102
+[23-Mar-2022 15:51:07 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 116
+[23-Mar-2022 15:51:07 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:51:07 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 15:51:22 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 116
+[23-Mar-2022 15:51:22 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 15:51:22 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 123
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 123
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 123
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 123
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:32:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 124
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:40:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:41:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:43:48 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 122
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP Stack trace:
+[23-Mar-2022 16:46:42 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[24-Mar-2022 09:19:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 128
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP Notice:  Undefined variable: languages in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 121
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php on line 121
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 09:20:19 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exTableau.php:0
+[24-Mar-2022 10:15:18 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 24
+[24-Mar-2022 10:15:18 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 10:15:18 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 10:15:18 Europe/Berlin] PHP   2. somme() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:36
+[24-Mar-2022 10:15:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 24
+[24-Mar-2022 10:15:49 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 10:15:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 10:15:49 Europe/Berlin] PHP   2. somme() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:36
+[24-Mar-2022 10:17:29 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 25
+[24-Mar-2022 10:17:29 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 10:17:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 10:17:29 Europe/Berlin] PHP   2. somme() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:33
+[24-Mar-2022 10:18:29 Europe/Berlin] PHP Notice:  Undefined variable: sum in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 26
+[24-Mar-2022 10:18:29 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 10:18:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 10:18:29 Europe/Berlin] PHP   2. somme() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:33
+[24-Mar-2022 11:25:03 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:25:03 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:25:03 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:25:03 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:52
+[24-Mar-2022 11:25:03 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:25:24 Europe/Berlin] PHP Warning:  preg_match_all(): Unknown modifier '(' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:25:24 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:25:24 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:25:24 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:52
+[24-Mar-2022 11:25:24 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:25:39 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:25:39 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:25:39 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:25:39 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:52
+[24-Mar-2022 11:25:39 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:30:20 Europe/Berlin] PHP Warning:  preg_match_all(): Unknown modifier ')' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:30:20 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:30:20 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:30:20 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:52
+[24-Mar-2022 11:30:20 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:36:44 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:36:44 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:36:44 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:36:44 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:53
+[24-Mar-2022 11:36:44 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:38:09 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:38:09 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:38:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:38:09 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:53
+[24-Mar-2022 11:38:09 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:47:17 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:47:17 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:47:17 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:47:17 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:53
+[24-Mar-2022 11:47:17 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:47:18 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:47:18 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:47:18 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:47:18 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:53
+[24-Mar-2022 11:47:18 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 11:50:24 Europe/Berlin] PHP Warning:  preg_match_all(): Unknown modifier '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:50:24 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:50:24 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:50:24 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:50:24 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:51:21 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:51:21 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:51:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:51:21 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:51:21 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:52:56 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:52:56 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:52:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:52:56 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:52:56 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:55:06 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '^' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:55:06 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:55:06 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:55:06 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:55:06 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:55:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 59
+[24-Mar-2022 11:57:11 Europe/Berlin] PHP Warning:  preg_match_all(): Unknown modifier '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:57:11 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:57:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:57:11 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:57:11 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:57:23 Europe/Berlin] PHP Warning:  preg_match_all(): Unknown modifier '#' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 42
+[24-Mar-2022 11:57:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:57:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:57:23 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:57:23 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:42
+[24-Mar-2022 11:59:38 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '~' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 11:59:38 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 11:59:38 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 11:59:38 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 11:59:38 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 12:00:15 Europe/Berlin] PHP Warning:  preg_match_all(): No ending delimiter '~' found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php on line 41
+[24-Mar-2022 12:00:15 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 12:00:15 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:0
+[24-Mar-2022 12:00:15 Europe/Berlin] PHP   2. complex_password() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:55
+[24-Mar-2022 12:00:15 Europe/Berlin] PHP   3. preg_match_all() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFonction.php:41
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP Notice:  Undefined index: prenom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 19
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 19
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 14:24:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP Notice:  Undefined index: prenom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 18
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 18
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 14:27:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:18:45 Europe/Berlin] PHP Warning:  copy(toto.txt): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 42
+[24-Mar-2022 15:18:45 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:18:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:18:45 Europe/Berlin] PHP   2. copy() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:42
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Warning:  fopen(moncompteur.txt): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 46
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   2. fopen() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:46
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 49
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   2. fgets() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:49
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Warning:  fseek() expects parameter 1 to be resource, bool given in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 55
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   2. fseek() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:55
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Warning:  fputs() expects parameter 1 to be resource, bool given in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 58
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   2. fputs() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:58
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php on line 61
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:0
+[24-Mar-2022 15:21:34 Europe/Berlin] PHP   2. fclose() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exForm.php:61
+[24-Mar-2022 15:30:07 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php on line 14
+[24-Mar-2022 15:30:07 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:30:07 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php:0
+[24-Mar-2022 15:32:23 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php on line 15
+[24-Mar-2022 15:32:23 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:32:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php:0
+[24-Mar-2022 15:32:46 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php on line 15
+[24-Mar-2022 15:32:46 Europe/Berlin] PHP Stack trace:
+[24-Mar-2022 15:32:46 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/liens.php:0
+[24-Mar-2022 15:44:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/exFichier.php on line 76
+[24-Mar-2022 16:55:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'record' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bdd.php:3
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bdd.php(3): PDO->__construct()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/bdd.php on line 3
