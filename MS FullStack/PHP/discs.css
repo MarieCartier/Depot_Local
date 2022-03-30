@@ -1,0 +1,49 @@
+a, a:hover
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    width: 120px;
+
+}
+
+#section1
+{
+    padding: 2rem;
+}
+
+.btn
+{
+    width: 120px;
+    align-self: flex-end;
+    color: white;
+}
+
+#infosD, #imgD
+{
+    margin-bottom: 1rem;
+}
+
+.headerD
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.inputDetails
+{
+    width: 500px;
+}
+
+#discForm
+{
+    margin-bottom: 1rem;
+}
+
+.inputNew
+{
+    width: 100%;
+}

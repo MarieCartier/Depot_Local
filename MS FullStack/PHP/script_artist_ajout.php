@@ -1,6 +1,7 @@
 <?php
     // Récupération du Nom :
-    if (isset($_POST['nom']) && $_POST['nom'] != "") {
+    if (isset($_POST['nom']) && $_POST['nom'] != "") 
+    {
         $nom = $_POST['nom'];
     }
     else {
