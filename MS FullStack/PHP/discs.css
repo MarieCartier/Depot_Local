@@ -7,7 +7,6 @@ a, a:hover
     text-decoration: none;
     color: white;
     width: 120px;
-
 }
 
 #section1
@@ -18,19 +17,19 @@ a, a:hover
 .btn
 {
     width: 120px;
-    align-self: flex-end;
+    height: 50px;
     color: white;
+    text-align: center;
 }
 
 #infosD, #imgD
 {
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 .headerD
 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 1rem;
 }
 
 .inputDetails
@@ -46,4 +45,10 @@ a, a:hover
 .inputNew
 {
     width: 100%;
+}
+
+img
+{
+    width: 400px;
+    height: 400px;
 }

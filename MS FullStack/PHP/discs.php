@@ -48,7 +48,7 @@ la méthode closeCursor(); libère la requête, pour pouvoir en lancer d'autres
             </div>
         </div>
             
-        <div class="container">
+        <div class="container-fluid">
         <!--division en 2 colonnes-->
             <section class="row" id="section1">
 
@@ -56,7 +56,7 @@ la méthode closeCursor(); libère la requête, pour pouvoir en lancer d'autres
                 <?php foreach ($tableau as $disc): ?>
 
                     <!--Division pour chaque CD-->
-                    <img class="col-xl-3 img-fluid" id="imgD" src="<?= $disc->disc_picture ?>" alt="jaquette de <?= $disc->disc_title?>" title="jaquette de <?= $disc->disc_title?>">
+                    <img class="col-xl-3" id="imgD" src="<?= $disc->disc_picture ?>" alt="jaquette de <?= $disc->disc_title?>" title="jaquette de <?= $disc->disc_title?>">
                     <div class="col-xl-3" id="infosD">
                         <h5><?= $disc->disc_title ?></h5>
                         <br>

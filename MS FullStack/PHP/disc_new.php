@@ -2,7 +2,6 @@
     require "db.php";
     $db = connexionBase();
     $requete = $db->query("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id");
-    //$requete->execute(array($_GET["id"]));
     $requete = $db->query("SELECT DISTINCT artist_name, artist_id FROM artist");
     $myDisc = $requete->fetchAll(PDO::FETCH_OBJ);
     $requete->closeCursor();

@@ -17,6 +17,7 @@
 
     // on clôt la requête en BDD
     $requete->closeCursor();
+
 ?>
 
 <!DOCTYPE html>

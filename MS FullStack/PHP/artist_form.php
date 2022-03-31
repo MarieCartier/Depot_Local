@@ -1,5 +1,4 @@
 <?php
-    // On charge l'enregistrement correspondant à l'ID passé en paramètre :
     require "db.php";
     $db = connexionBase();
     $requete = $db->prepare("SELECT * FROM artist WHERE artist_id=?");
