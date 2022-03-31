@@ -8,7 +8,7 @@
     $artist = (isset($_POST['artist']) && $_POST['artist'] != "") ? $_POST['artist'] : Null;
 
     // En cas d'erreur, on renvoie vers le formulaire
-    if ($title == Null || $year == Null || $genre == Null || $label == Null || $price == Null || $artist == Null) header("Location: disc_new.php");
+    if ($title == Null || $year == Null || $genre == Null || $label == Null || $price == Null || $artist == Null || $_FILES["picture"]["name"] == "") header("Location: disc_new.php");
 
     // Gestion erreur de chargement de fichier
     if ($_FILES["picture"]["error"] > 0) {

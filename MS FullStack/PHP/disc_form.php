@@ -1,9 +1,17 @@
 <?php
     require "db.php";
     $db = connexionBase();
-    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id");
-    $requete->execute(array($_GET["id"]));
+    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id WHERE disc_id = :id");
+    $requete->execute(array(
+        ":id" => $_GET["id"]
+    ));
     $myDisc = $requete->fetch(PDO::FETCH_OBJ);
+
+    $requete = $db->query("SELECT DISTINCT artist_name, artist_id FROM artist");
+    $artists = $requete->fetchAll(PDO::FETCH_OBJ);
+
+    // var_dump($myDisc);
+    // var_dump($artists);
     $requete->closeCursor();
 
 ?>
@@ -22,7 +30,7 @@
 </head>
 <body>
     <!--Début container-->
-    <div class="container">
+    <div class="container discBottom"">
         <!--Titre-->
         <div>
             <h1>Modifier un vinyle</h1>
@@ -30,8 +38,7 @@
 
     <br>
     <br>
-
-        <form action ="script_disc_modif.php" method="post">
+        <form action ="script_disc_modif.php" method="get" enctype="multipart/form-data">
 
             <input type="hidden" name="id" value="<?= $myDisc->disc_id ?>">
 
@@ -41,9 +48,10 @@
         
             <label for="artist_of_disc">Artist</label><br>
             <select class="inputNew" name="artist" id="artist_of_disc">
-                <option value="ACDC">ACDC</option>
-                <?php foreach ($myDisc as $artist): ?>
-                    <option value="<?= $artist->artist_id ?>"><?= $artist->artist_name ?></option>
+            
+                <?php foreach ($artists as $artist): ?>
+                    <option value="<?= $artist->artist_id ?>" <?= ($artist->artist_id == $myDisc->artist_id) ? "selected" : "" ?>><?= $artist->artist_name ?> </option>
+                    <!-- <option value="<?= $artist->artist_id ?>" <?php if ($artist->artist_id == $myDisc->artist_id) echo "selected" ?>><?= $artist->artist_name ?> </option> -->
                 <?php endforeach; ?>
 
             </select>

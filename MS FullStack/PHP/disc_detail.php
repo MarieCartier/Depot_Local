@@ -42,7 +42,7 @@
         </div>
 
         <!--Début container formulaire-->
-        <div class="container" id="discForm">
+        <div class="container discBottom">
             
             <form action ="script_disc_ajout.php" method="post">
 
@@ -98,7 +98,7 @@
                     <br><br>
 
                     <a class="btn btn-info" href="disc_form.php?id=<?= $myDisc->disc_id ?>">Modifier</a>
-                    <a class="btn btn-info" href="script_disc_delete.php?id=">Supprimer</a>
+                    <a class="btn btn-info" href="script_disc_delete.php?id=<?= $myDisc->disc_id ?>">Supprimer</a>
                     <a class="btn btn-info" href="discs.php">Retour</a>
                 </div>
             </form>
