@@ -1,10 +1,11 @@
 <?php
+// Même syntaxe sur toutes les pages pour la connection à la BDD
     require "db.php";
-    $db = connexionBase();
-    $requete = $db->query("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id");
-    $requete = $db->query("SELECT DISTINCT artist_name, artist_id FROM artist");
-    $myDisc = $requete->fetchAll(PDO::FETCH_OBJ);
-    $requete->closeCursor();
+    $db = connexionBase(); // Connection
+    $requete = $db->query("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id"); // Ici on demande l'accès à toutes les données de la base
+    $requete = $db->query("SELECT DISTINCT artist_name, artist_id FROM artist"); // Ici on demande en plus que les noms d'artists trouvé soient uniques
+    $myDisc = $requete->fetchAll(PDO::FETCH_OBJ); // On enregistre dans myDisc le tableau contenant toutes les infos demandées au dessus
+    $requete->closeCursor(); //Fin de requete
 
 ?>
 
@@ -15,9 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="jaquettes/note.png" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="discs.css"/>
-        <title>Velvet Records</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="discs.css"/>
+    <title>Velvet Records</title>
 </head>
 <body>
     <!--Début container-->
@@ -29,7 +30,7 @@
 
     <br>
     <br>
-
+        <!--Quand on ouvre un formulaire, il faut déclarer le fichier de traitement des données, et ajouter enctype pour la prise en compte des fichiers ajoutés-->
         <form action ="script_disc_ajout.php" method="post" enctype="multipart/form-data">
 
             <label for="title_of_disc">Title</label><br>
@@ -39,7 +40,7 @@
             <label for="artist_of_disc">Artist</label><br>
             <select class="inputNew" name="artist" id="artist_of_disc">
                     <option value=""></option>
-                <?php foreach ($myDisc as $artist): ?>
+                <?php foreach ($myDisc as $artist): //Boucle de récupération des noms d'artistes pour liste déroulante?>
                     <option value="<?= $artist->artist_id ?>"><?= $artist->artist_name ?></option>
                 <?php endforeach; ?>
             </select>
@@ -66,10 +67,10 @@
             <input type="file" name="picture" id="picture_of_disc">
             <br><br>
 
-            <button type="submit" class="btn btn-info">Ajouter</button>
-            <button type="reset" class="btn btn-info">Annuler</button>
+            <input type="submit" class="btn btn-info" value="Ajouter"></input> 
+            <input type="reset" class="btn btn-info" value="Annuler"></input>
             <a class="btn btn-info" href="discs.php">Retour</a>
-
+            <!--Pour validation d'un formulaire avec récupération des données entrées, on a besoin d'un input type submit, qui renvoie au fichier mentionnée dans la déclaration du formulaire-->
         </form>
 
     </div>

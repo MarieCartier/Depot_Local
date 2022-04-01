@@ -1,19 +1,20 @@
 <?php
+//Page d'accueil du site. On commence par intégrer la connection à la BDD pour avoir accès aux données
 
     // on importe le contenu du fichier "db.php"
     include "db.php";
 
-    // on exécute la méthode de connexion à notre BDD
+    // on exécute la fonction de connexion à notre BDD
     $db = connexionBase();
 
-    // on lance une requête pour chercher toutes les fiches d'artistes
-    $requete = $db->query("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id ORDER BY disc_title");
+    // on lance une requête pour chercher toutes les fiches d'artistes. La requête (query) se fait à partir de la BD ($bd) et est enregistrée dans une variable ($requete)
+    $requete = $db->query("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id ORDER BY disc_title"); // fonctionne avec langage SQL
 
     // on récupère tous les résultats trouvés dans une variable
-    $tableau = $requete->fetchAll(PDO::FETCH_OBJ);
+    $tableau = $requete->fetchAll(PDO::FETCH_OBJ); // Fetch all permet de capter tous les objets contenus dans la table citée dans FROM, à partir de la requete enregistrée dans $requete
     
     // on clôt la requête en BDD
-    $requete->closeCursor();
+    $requete->closeCursor(); // Penser à cloturer la requete à la fin de celle-ci
 
     
 
@@ -25,6 +26,8 @@ la méthode closeCursor(); libère la requête, pour pouvoir en lancer d'autres
 */
 
 ?>
+
+<!--Un fois la demande de connection et les infos nécessaires précisées, on peut intégrer la page html qui nous sert de contenu-->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -43,37 +46,43 @@ la méthode closeCursor(); libère la requête, pour pouvoir en lancer d'autres
         <div class="container">
             <!--Titre + Ajouter-->
             <div class="row headerD">
-                <h1 class="col-lg-10">Liste des disques (<?=count($tableau)?>)</h1>
+                <h1 class="col-lg-10">Liste des disques (<?=count($tableau)?>)</h1> <!--Si on a besoin d'une donnée de la BDD, il faut intégrer des balises PHP dans le HTML--> 
                     <a class="btn btn-info" href="disc_new.php?id=">Ajouter</a>
             </div>
         </div>
             
-        <div class="container-fluid">
+        <div class="container">
         <!--division en 2 colonnes-->
             <section class="row" id="section1">
 
                 <!--Liste des disques avec boucle PHP-->
-                <?php foreach ($tableau as $disc): ?>
+                <?php foreach ($tableau as $disc): //$tableau étant un tableau contenant tous les éléments de la table disc, on peut boucler dessus
+                    // $tableau = toute la table disc
+                    // $disc = chaque ligne de la table
+                    // $disc->nom_colonne = case de la colonne indiquée, correspondant à la ligne mentionnée avant?>
 
                     <!--Division pour chaque CD-->
-                    <img class="col-xl-3" id="imgD" src="<?= $disc->disc_picture ?>" alt="jaquette de <?= $disc->disc_title?>" title="jaquette de <?= $disc->disc_title?>">
-                    <div class="col-xl-3" id="infosD">
-                        <h5><?= $disc->disc_title ?></h5>
-                        <br>
-                        <ul type='none'>
-                            <li><b><?= $disc->artist_name ?></b></li>
-                            <li><b>label: </b><?= $disc->disc_label ?></li>
-                            <li><b>Year : </b><?= $disc->disc_year ?></li>
-                            <li><b>Genre : </b><?= $disc->disc_genre ?></li>
-                        </ul>
-                        <br>
+                    <img class="col-xl-4 img-fluid" id="imgD" src="<?= $disc->disc_picture ?>" alt="jaquette de <?= $disc->disc_title?>" title="jaquette de <?= $disc->disc_title?>">
+                    <div class="col-xl-2" id="infosD">
+                        <div id="infos">
+                            <h5><?= $disc->disc_title ?></h5>
+                                <li type='none'><!--Ici, chaque point de la liste va contenir une case par ligne et par colonne-->
+                                <li type='none'><b><?= $disc->artist_name ?></b></li>
+                                <li type='none'><b>label: </b><?= $disc->disc_label ?></li>
+                                <li type='none'><b>Year : </b><?= $disc->disc_year ?></li>
+                                <li type='none'><b>Genre : </b><?= $disc->disc_genre ?></li>
+                            </li>
+                        </div>
 
-                        <a class="btn btn-info" href="disc_detail.php?id=<?= $disc->disc_id ?>">Détails</a>
-
+                        <div id="détails">
+                            <a class="btn btn-info" href="disc_detail.php?id=<?= $disc->disc_id ?>">Détails</a>
+                        </div>
                     </div>
                     
-                <?php endforeach; ?>
+                <?php endforeach; // Fin de la boucle PHP, permet d'afficher chaque balise HTML selon la case correspondante indiquée à l'intérieur des balises PHP?>
             </section>
         </div>
     </body>
 </html>
+
+<?PHP // /!\ fetchAll != fetch étant un tableau, fetch est un objet, on ne peut donc pas procéder de la même manière pour invoquer les éléments dans le HTML?>

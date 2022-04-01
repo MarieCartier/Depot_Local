@@ -1,23 +1,15 @@
 <?php
-    // On se connecte à la BDD via notre fichier db.php :
+    // Déclaration de la requete avec connection à la BDD
+
     require "db.php";
     $db = connexionBase();
-
-    // On récupère l'ID passé en paramètre :
-    $id = $_GET["id"];
-
-    // On crée une requête préparée avec condition de recherche :
-    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id WHERE disc_id=?");
-
-    // on ajoute l'ID du disque passé dans l'URL en paramètre et on exécute :
-    $requete->execute(array($id));
-
-    // on récupère le 1e (et seul) résultat :
-    $myDisc = $requete->fetch(PDO::FETCH_OBJ);
-
-    // on clôt la requête en BDD
+    $id = $_GET["id"]; // On récupère l'id passé dans l'url (dans le bouton 'Détails' de chaque disc, formulé dans discs.php)
+    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id WHERE disc_id=?"); // On sélectionne toutes les données correspondant à l'id récupéré 
+    // /!\ Si on ne précise pas de WHERE, le formulaire va prendre les 1ere infos qu'il trouve, et non celles associées au disc en question
+    $requete->execute(array($id)); // On exécute la requête permettant de valider l'id dans la variable $id
+    
+    $myDisc = $requete->fetch(PDO::FETCH_OBJ); // On utilise fetch pour récuperer uniquement les 1eres infos correspondant au WHERE, et non toute la table
     $requete->closeCursor();
-
 ?>
 
 <!DOCTYPE html>
@@ -48,6 +40,8 @@
 
                 <div class="row">
                     <input  type="hidden" name="id" disabled value="<?= $myDisc->disc_id ?>">
+
+                    <!-- $myDisc n'étant pas un tableau mais un objet, on y accède en demandant juste la valeur qui nous intéresse-->
 
                     <div class="col-xl-6">
                         <label for="nom_for_label">Title</label><br>
@@ -96,8 +90,8 @@
                     <label for="img_of_disc">Picture</label><br>
                     <img class="img-fluid" width="500px" src="<?= $myDisc->disc_picture ?>" alt="jaquette de <?= $myDisc->disc_title?>" title="jaquette de <?= $myDisc->disc_title?>" width="250">
                     <br><br>
-
-                    <a class="btn btn-info" href="disc_form.php?id=<?= $myDisc->disc_id ?>">Modifier</a>
+<!-- Pour le boutons supprimer, il suffit de renvoyer vers le script de suppression avec l'id, puisque pour supprimer il nous faut juste une info unique par ligne-->
+                    <a class="btn btn-info" href="disc_form.php?id=<?= $myDisc->disc_id?>">Modifier</a>
                     <a class="btn btn-info" href="script_disc_delete.php?id=<?= $myDisc->disc_id ?>">Supprimer</a>
                     <a class="btn btn-info" href="discs.php">Retour</a>
                 </div>

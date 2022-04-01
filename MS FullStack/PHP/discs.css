@@ -24,12 +24,25 @@ a, a:hover
 
 #infosD, #imgD
 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#infosD
+{
+    padding: 5px;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+#détails
+{
+    align-self: flex-end;
 }
 
 .headerD
 {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .inputDetails
@@ -51,4 +64,9 @@ img
 {
     width: 400px;
     height: 400px;
+}
+
+ul
+{
+    padding-left: 0px;
 }

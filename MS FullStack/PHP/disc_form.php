@@ -1,18 +1,26 @@
 <?php
+// Formulaire de modification 
+// Dans cette partie, nous avons besoin de récupérer les infos d'une ligne (id en cours), mais aussi de toute la table artist (pour la liste déroulante)
+// Pour cela, on va lancer 2 requetes, une en fetch et une en fetchAll
+// On lance une requete (ciblée sur l'id), on execute fetch dans une variable
+// puis on lance une seconde requete (ciblée sur le nom de tous les artistes uniques), on execute fetchAll dans une autre variable
+// On pourra par la suite utiliser distinctement ces deux variables selon le besoin
+
     require "db.php";
     $db = connexionBase();
-    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id WHERE disc_id = :id");
-    $requete->execute(array(
-        ":id" => $_GET["id"]
-    ));
+    $id = $_GET["id"];
+    $requete = $db->prepare("SELECT * FROM disc JOIN artist ON disc.artist_id = artist.artist_id WHERE disc_id = ?"); // Penser à ajouter l'id sinon toutes les infos seront celles de la 1ere ligne de la table
+    $requete->execute(array($id));
     $myDisc = $requete->fetch(PDO::FETCH_OBJ);
 
     $requete = $db->query("SELECT DISTINCT artist_name, artist_id FROM artist");
     $artists = $requete->fetchAll(PDO::FETCH_OBJ);
 
     // var_dump($myDisc);
-    // var_dump($artists);
-    $requete->closeCursor();
+    // var_dump($artists); //=> Permet de voir ce que contient la variable quand on bloque
+
+    //Penser à cloturer APRES les 2 requetes
+    $requete->closeCursor(); 
 
 ?>
 
@@ -38,9 +46,9 @@
 
     <br>
     <br>
-        <form action ="script_disc_modif.php" method="get" enctype="multipart/form-data">
+        <form action ="script_disc_modif.php" method="post" enctype="multipart/form-data">
 
-            <input type="hidden" name="id" value="<?= $myDisc->disc_id ?>">
+            <input type="hidden" name="id" value="<?= $myDisc->disc_id // Ici on récupère un OBJ en fetch?>">
 
             <label for="title_of_disc">Title</label><br>
             <input class="inputNew" type="text" name="title" id="title_of_disc" value="<?= $myDisc->disc_title ?>">
@@ -49,9 +57,9 @@
             <label for="artist_of_disc">Artist</label><br>
             <select class="inputNew" name="artist" id="artist_of_disc">
             
-                <?php foreach ($artists as $artist): ?>
-                    <option value="<?= $artist->artist_id ?>" <?= ($artist->artist_id == $myDisc->artist_id) ? "selected" : "" ?>><?= $artist->artist_name ?> </option>
-                    <!-- <option value="<?= $artist->artist_id ?>" <?php if ($artist->artist_id == $myDisc->artist_id) echo "selected" ?>><?= $artist->artist_name ?> </option> -->
+                <?php foreach ($artists as $artist): // Ici on récupère un Array en fetchAll?>
+                    <!--En plus de la boucle, il faut pré-sélectionner l'artiste de l'id en question, on intègre donc une condition dans la boucle-->
+                    <option value="<?= $artist->artist_id ?>" <?= ($artist->artist_id == $myDisc->artist_id) ? "selected" : "" ?>><?= $artist->artist_name // Version simplifiée?> </option>
                 <?php endforeach; ?>
 
             </select>

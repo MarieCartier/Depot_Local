@@ -1,18 +1,19 @@
 <?php
 //appel de la BDD: lancement de MySQL, adresse du serveur, nom de la BDD, encodage, identifiant, mdp
 
-function ConnexionBase() {
-    try 
+function ConnexionBase() { // fonction qui permet la connection à la BDD
+    try //fonctionne comme un si/else
     {
-        $db = new PDO("mysql:host=localhost;charset=utf8;dbname=record", "Marie", "Théophile24051995");
-        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        return $db;
+        $db = new PDO("mysql:host=localhost;charset=utf8;dbname=record", "Marie", "Théophile24051995"); // initialisation de la variable db en tant que PDO, qui représente la connection entre la BDD et PHP, avec les infos entrées en paramètres
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // Instances permettant de gérer les erreurs
+        return $db; //sauvegarde la variable db
     } 
+    // Pour capter une erreur dans l'élément
     catch (Exception $e) 
     {
-        echo 'Erreur : '.$e->getMessage().'<br>';
-        echo 'N° : '.$e->getCode();
-        die('Fin du script');
+        echo 'Erreur : '.$e->getMessage().'<br>'; // Affiche l'erreur de l'élément en cours
+        echo 'N° : '.$e->getCode(); // Affiche le code erreur de l'élément en cours
+        die('Fin du script'); // permet d'arreter le script s'il y a une erreur, et donc de ne pas faire planter le site
     }
 }
 /*setAttribute() indique à PDO qu'il faut générer une exception à chaque fois qu'un problème est rencontré.
