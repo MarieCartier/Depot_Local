@@ -92,10 +92,11 @@
                     <br><br>
 <!-- Pour le boutons supprimer, il suffit de renvoyer vers le script de suppression avec l'id, puisque pour supprimer il nous faut juste une info unique par ligne-->
                     <a class="btn btn-info" href="disc_form.php?id=<?= $myDisc->disc_id?>">Modifier</a>
-                    <a class="btn btn-info" href="script_disc_delete.php?id=<?= $myDisc->disc_id ?>">Supprimer</a>
+                    <a id="supprimer" class="btn btn-info" href="script_disc_delete.php?id=<?= $myDisc->disc_id ?>">Supprimer</a>
                     <a class="btn btn-info" href="discs.php">Retour</a>
                 </div>
             </form>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

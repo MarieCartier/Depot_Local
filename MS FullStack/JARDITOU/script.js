@@ -38,7 +38,7 @@ function filtres(e)
 {
     //Nom
     var filtreNom= filtre1.test(nom.value);
-
+ 
     if(nom.value=="")
     {
         nomM.textContent = "Veuillez entrez au moins un caractère";
@@ -148,7 +148,7 @@ function filtres(e)
         naissanceM.textContent = "Veuillez entrer votre date de naissance";
         e.preventDefault();
     }
-        else if(filtreNaissance==false)
+       else if(filtreNaissance==false)
         {
             naissanceM.textContent = "Veuillez entrer une date au format JJ/MM/AAAA";
             e.preventDefault();

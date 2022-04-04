@@ -1,0 +1,97 @@
+[04-Apr-2022 11:21:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 3
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 3
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 3
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 3
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 4
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 4
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 4
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 5
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:27:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:28:22 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 5
+[04-Apr-2022 11:28:22 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:28:22 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 11:35:08 Europe/Berlin] PHP Notice:  Undefined index: auth in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[04-Apr-2022 11:35:08 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 11:35:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 13:40:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'user.user' doesn't exist in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_form.php:6
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_form.php(6): PDO->query()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_form.php on line 6
+[04-Apr-2022 14:00:17 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 36
+[04-Apr-2022 14:00:17 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 14:00:17 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[04-Apr-2022 14:02:15 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 36
+[04-Apr-2022 14:02:15 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 14:02:15 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[04-Apr-2022 15:16:03 Europe/Berlin] PHP Notice:  Undefined variable: password in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 25
+[04-Apr-2022 15:16:03 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:16:03 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[04-Apr-2022 15:20:03 Europe/Berlin] PHP Notice:  Undefined index: auth in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 23
+[04-Apr-2022 15:20:03 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:20:03 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 24
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP Notice:  Undefined index: auth in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 33
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:26:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 24
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP Notice:  Undefined index: auth in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 33
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:26:53 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:37:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 11
+[04-Apr-2022 15:52:09 Europe/Berlin] PHP Notice:  Undefined variable: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 6
+[04-Apr-2022 15:52:09 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:52:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:52:14 Europe/Berlin] PHP Notice:  Undefined variable: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 6
+[04-Apr-2022 15:52:14 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:52:14 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:56:22 Europe/Berlin] PHP Notice:  Undefined index: ident_mdp in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 16
+[04-Apr-2022 15:56:22 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:56:22 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:56:29 Europe/Berlin] PHP Notice:  Undefined index: ident_mdp in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 16
+[04-Apr-2022 15:56:29 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:56:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 15:56:42 Europe/Berlin] PHP Notice:  Undefined index: :ident_mdp in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 16
+[04-Apr-2022 15:56:42 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 15:56:42 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:29:49 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php on line 2
+[04-Apr-2022 16:29:49 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:29:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/page.php:0
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 30
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:45:38 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 30
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:48:18 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 30
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 16:49:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0

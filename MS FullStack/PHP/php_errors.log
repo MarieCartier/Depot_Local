@@ -12138,3 +12138,9 @@ Stack trace:
 [01-Apr-2022 12:25:14 Europe/Berlin] PHP Notice:  Undefined variable: picture in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php on line 79
 [01-Apr-2022 12:25:14 Europe/Berlin] PHP Stack trace:
 [01-Apr-2022 12:25:14 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php:0
+[04-Apr-2022 08:39:53 Europe/Berlin] PHP Notice:  Undefined variable: picture in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php on line 79
+[04-Apr-2022 08:39:53 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 08:39:53 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php:0
+[04-Apr-2022 08:39:58 Europe/Berlin] PHP Notice:  Undefined variable: picture in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php on line 79
+[04-Apr-2022 08:39:58 Europe/Berlin] PHP Stack trace:
+[04-Apr-2022 08:39:58 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/script_disc_modif.php:0
