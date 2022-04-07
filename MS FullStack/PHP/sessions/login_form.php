@@ -1,11 +1,5 @@
 <?php
-
-    include "db.php";
-    $db = connexionBase();
-    $requete = $db->query("SELECT * FROM identifiants");
-    $myIdents = $requete->fetchAll(PDO::FETCH_OBJ);
-    $requete->closeCursor();
-
+//Formulaire de connexion
 ?>
 
 
@@ -24,6 +18,7 @@
 
             <h1>Connexion à mon espace personnel</h1>
             <form action="login_script.php" method="post">
+
             <div class="row">
                 <label class="col-2" for="mail" id="login">Login : </label>
                 <input class="col-4" type="text" name="mail">

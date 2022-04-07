@@ -1,7 +1,6 @@
 <?php
 //Formulaire d'inscription qui renvoie vers le script inscrip_script.php
-    include "db.php";
-    $db = connexionBase();
+    session_start();
 
 ?>
 
@@ -23,23 +22,23 @@
             <div class="row">
 
                 <label class="col-2" for="nom" id="nom">Nom : </label>
-                <input class="col-4" type="text" name="nom">
-                <div class="required" id="nomM"></div>
+                <input class="col-4" type="text" name="nom" value="<?= (isset($_SESSION['post']['nom'])) ? $_SESSION['post']['nom'] : "" ?>">
+                <div class="required" id="nomM"><?= (isset($_SESSION['erreur']['nom'])) ? $_SESSION['erreur']['nom'] : "" ?></div>
 <br>
 
                 <label class="col-2" for="prenom" id="prenom">Prénom : </label>
-                <input class="col-4" type="text" name="prenom">
-                <div class="required" id="prenomM"></div>
+                <input class="col-4" type="text" name="prenom" value="<?= (isset($_SESSION['post']['prenom'])) ? $_SESSION['post']['prenom'] : "" ?>">
+                <div class="required" id="prenomM"><?= (isset($_SESSION['erreur']['prenom'])) ? $_SESSION['erreur']['prenom'] : "" ?></div>
 <br>
 
                 <label class="col-2" for="mail" id="mail">Adresse mail : </label>
-                <input class="col-4" type="text" name="mail">
-                <div class="required" id="mailM"></div>
+                <input class="col-4" type="text" name="mail" value="<?= (isset($_SESSION['post']['mail'])) ? $_SESSION['post']['mail'] : "" ?>">
+                <div class="required" id="mailM"><?= (isset($_SESSION['erreur']['mail'])) ? $_SESSION['erreur']['mail'] : "" ?></div>
 <br>
 
                 <label class="col-2" for="mdp" id="mdp">Mot de passe : </label>
-                <input class="col-4" type="password" name="mdp">
-                <div class="required" id="mdpM"></div>
+                <input class="col-4" type="password" name="mdp" value="<?= (isset($_SESSION['post']['mdp'])) ? $_SESSION['post']['mdp'] : "" ?>">
+                <div class="required" id="mdpM"><?= (isset($_SESSION['erreur']['mdp'])) ? $_SESSION['erreur']['mdp'] : "" ?></div>
 
             </div>
 

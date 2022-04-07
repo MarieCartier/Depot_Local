@@ -95,3 +95,287 @@ Stack trace:
 [04-Apr-2022 16:49:09 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
 [04-Apr-2022 16:49:09 Europe/Berlin] PHP Stack trace:
 [04-Apr-2022 16:49:09 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:03:45 Europe/Berlin] PHP Notice:  Undefined index: id in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_form.php on line 5
+[05-Apr-2022 09:03:45 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:03:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_form.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Undefined index: id in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 10
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 18
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 32
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:13:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 30
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 09:14:26 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 28
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 28
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Notice:  Undefined variable: mdpDB in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Notice:  Undefined variable: mdpDB in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 39
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:46:31 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:46:57 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 29
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Notice:  Undefined variable: mdpDB in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 13:47:30 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 13:47:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ';' or ',' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 31
+[05-Apr-2022 14:24:53 Europe/Berlin] PHP Notice:  Undefined variable: password in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 45
+[05-Apr-2022 14:24:53 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 14:24:53 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[05-Apr-2022 14:32:59 Europe/Berlin] PHP Notice:  Undefined variable: password in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 48
+[05-Apr-2022 14:32:59 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 14:32:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[05-Apr-2022 14:49:36 Europe/Berlin] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 5 in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 48
+[05-Apr-2022 14:49:36 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 14:49:36 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[05-Apr-2022 14:49:36 Europe/Berlin] PHP   2. preg_match() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:48
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Undefined index: id in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 10
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 22
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 35
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 36
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:02:23 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 34
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 35
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:21:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Notice:  Undefined variable: mdpDB in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 27
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 36
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:42:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Notice:  Undefined variable: ident in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:43:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Notice:  Undefined variable: ident in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Notice:  Undefined variable: myIdent in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Notice:  Trying to get property 'ident_mdp' of non-object in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:44:36 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Notice:  Undefined variable: myIdent in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:45:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Notice:  Undefined index: ident_mdp in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 37
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 38
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:46:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:49:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 26
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 40
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php on line 41
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 15:59:56 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/login_script.php:0
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php on line 32
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php:0
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php on line 37
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php:0
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php on line 42
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP Stack trace:
+[05-Apr-2022 16:25:44 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscription.php:0
+[06-Apr-2022 09:08:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$mail_ident in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$mail_ident in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$mail_ident in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:08:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Notice:  Undefined variable: mailInscrip in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 09:11:54 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:07:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 75
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Notice:  Undefined variable: mailBDD in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 56
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:08:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Notice:  Undefined variable: listeMail in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 57
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 57
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 57
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 57
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:39:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 58
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 58
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 58
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 58
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:40:47 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:42:04 Europe/Berlin] PHP Fatal error:  Cannot redeclare ConnexionBase() (previously declared in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/db.php:3) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/db.php on line 3
+[06-Apr-2022 10:42:04 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:42:04 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:55:34 Europe/Berlin] PHP Notice:  Undefined index: post in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 7
+[06-Apr-2022 10:55:34 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:55:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:55:52 Europe/Berlin] PHP Notice:  Undefined index: post in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 5
+[06-Apr-2022 10:55:52 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:55:52 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 10:56:14 Europe/Berlin] PHP Notice:  Undefined index: post in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 5
+[06-Apr-2022 10:56:14 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 10:56:14 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 11:18:21 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 36
+[06-Apr-2022 11:18:21 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 11:18:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 92
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 92
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP Stack trace:
+[06-Apr-2022 16:34:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0
+[07-Apr-2022 09:41:22 Europe/Berlin] PHP Notice:  Array to string conversion in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php on line 97
+[07-Apr-2022 09:41:22 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 09:41:22 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/sessions/inscrip_script.php:0

@@ -1,0 +1,253 @@
+[06-Apr-2022 15:55:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Personnage' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/MonPerso.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/MonPerso.php on line 3
+[06-Apr-2022 15:59:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class Personnage could not be converted to string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/MonPerso.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/MonPerso.php on line 10
+[07-Apr-2022 10:08:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php on line 12
+[07-Apr-2022 10:09:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php on line 12
+[07-Apr-2022 10:32:35 Europe/Berlin] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (25/04/2010) at position 0 (2): Unexpected character in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php:8
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php(8): DateTime->__construct()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test.php on line 8
+[07-Apr-2022 12:08:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include()
+#1 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#2 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#3 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#4 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#5 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#6 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(4): include('/home/marie/Bur...')
+#7 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/cla in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 3
+[07-Apr-2022 12:36:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 143
+[07-Apr-2022 12:42:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:105
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(10): Employes->duree()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 105
+[07-Apr-2022 12:56:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 155
+[07-Apr-2022 13:05:26 Europe/Berlin] PHP Notice:  Object of class DateInterval could not be converted to int in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 151
+[07-Apr-2022 13:05:26 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:05:26 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:05:26 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:13
+[07-Apr-2022 13:05:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:157
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(13): Employes->prime()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 157
+[07-Apr-2022 13:52:15 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 7
+[07-Apr-2022 13:52:15 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:52:15 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:52:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 7
+[07-Apr-2022 13:52:37 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:52:37 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:52:37 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:52:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:53:06 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:53:06 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:53:06 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:53:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:53:13 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:53:13 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:53:13 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:53:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:54:03 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:54:03 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:54:03 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:54:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:54:19 Europe/Berlin] PHP Notice:  Undefined variable: employe in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 13:54:19 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 13:54:19 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 13:54:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prime() on null in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 12
+[07-Apr-2022 14:00:48 Europe/Berlin] PHP Notice:  Undefined variable: primeA in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 154
+[07-Apr-2022 14:00:48 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:00:48 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:00:48 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:25
+[07-Apr-2022 14:01:51 Europe/Berlin] PHP Notice:  Undefined variable: primeA in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 152
+[07-Apr-2022 14:01:51 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:01:51 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:01:51 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:25
+[07-Apr-2022 14:01:52 Europe/Berlin] PHP Notice:  Undefined variable: primeA in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 152
+[07-Apr-2022 14:01:52 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:01:52 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:01:52 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:25
+[07-Apr-2022 14:07:11 Europe/Berlin] PHP Notice:  Undefined variable: salaireNew in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 139
+[07-Apr-2022 14:07:11 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:07:11 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:07:11 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:25
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Notice:  Undefined variable: salaireNew in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 154
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:7
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Notice:  Undefined variable: salaireNew in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 154
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:13
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Notice:  Undefined variable: salaireNew in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 154
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:19
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Notice:  Undefined variable: salaireNew in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 154
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 14:12:08 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:31
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP Fatal error:  Cannot declare class Magasins, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 4
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP   2. require_once() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP   3. require() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:46:04 Europe/Berlin] PHP   4. require() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:2
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP Fatal error:  Cannot declare class Magasins, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 4
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP   3. require() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:47:31 Europe/Berlin] PHP   4. require() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:2
+[07-Apr-2022 15:48:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Magasins' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:5
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(3): include()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 5
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP Fatal error:  Cannot declare class Magasins, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 4
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP   3. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:48:32 Europe/Berlin] PHP   4. require() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:2
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP Fatal error:  Cannot declare class Employes, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 0
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP   3. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP   4. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:2
+[07-Apr-2022 15:48:38 Europe/Berlin] PHP   5. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP Fatal error:  Cannot declare class Magasins, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 4
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP   3. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:2
+[07-Apr-2022 15:48:41 Europe/Berlin] PHP   4. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:2
+[07-Apr-2022 15:49:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_prenom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:81
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(44): Magasins->addEmploye()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 81
+[07-Apr-2022 15:50:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_prenom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:80
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(44): Magasins->addEmploye()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 80
+[07-Apr-2022 15:50:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_magasin in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:81
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(44): Magasins->addEmploye()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 81
+[07-Apr-2022 15:51:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_prenom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:80
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(44): Magasins->addEmploye()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 80
+[07-Apr-2022 15:54:04 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Employes::setMagasin(), 0 passed in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 81 and exactly 1 expected in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:90
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php(81): Employes->setMagasin()
+#1 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(44): Magasins->addEmploye()
+#2 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 90
+[07-Apr-2022 16:01:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Magasins::addEmploye() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 44
+[07-Apr-2022 16:01:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Employes' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 4
+[07-Apr-2022 16:03:59 Europe/Berlin] PHP Fatal error:  Cannot declare class Employes, because the name is already in use in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 6
+[07-Apr-2022 16:03:59 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:03:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:03:59 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[07-Apr-2022 16:24:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Magasins::addEmploye() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 38
+[07-Apr-2022 16:26:29 Europe/Berlin] PHP Notice:  Undefined variable: decat in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 8
+[07-Apr-2022 16:26:29 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:26:29 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:26:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Employes::addMagasin() must be an instance of Magasins, null given, called in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 8 and defined in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:204
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(8): Employes->addMagasin()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 204
+[07-Apr-2022 16:31:19 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:31:19 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:31:19 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:31:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:32:58 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:32:58 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:32:58 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:32:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:37:06 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:37:06 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:37:06 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:37:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:39:21 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:39:21 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:39:21 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:39:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:39:40 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:39:40 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:39:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:39:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:40:57 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:40:57 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:40:57 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:40:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:41:05 Europe/Berlin] PHP Notice:  Undefined property: Employes::$Magasins in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[07-Apr-2022 16:41:05 Europe/Berlin] PHP Stack trace:
+[07-Apr-2022 16:41:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[07-Apr-2022 16:41:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
