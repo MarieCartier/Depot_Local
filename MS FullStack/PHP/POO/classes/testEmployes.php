@@ -3,60 +3,41 @@
 include "Employes.class.php";
 
 $employe1 = new Employes("Cartier", "Marie", 27000, new DateTime("31-11-2010"));
+$employe1->setEnseigne("Pimkie");
+$employe1->setVille("Rennes");
+$employe1->setPoste("DRH");
+$employe1->setService("Ressources Humaines");
+$employe1->setAdresse("15 rue des choux");
+$employe1->setCode(35000);
+$employe1->setRestaurant(false);
+$employe1->setEnfants(array(12));
+
+echo "Voici les infos de l'employé 1 : <br>";
 $employe1->duree();
 $employe1->prime();
+$employe1->repas();
+$employe1->cadeaux();
+
 
 echo "<br><br>";
 
 $employe2 = new Employes("Noël", "Père", 57500, new DateTime("03-12-1862"));
+$employe2->setEnseigne("Décathlon");
+$employe2->setVille("Lille");
+$employe2->setPoste("Designer");
+$employe2->setService("Production");
+$employe2->setAdresse("125 avenue des carottes");
+$employe2->setCode(59000);
+$employe2->setRestaurant(true);
+$employe2->setEnfants(array(1, 12, 15, 18));
+
+echo "Voici les infos de l'employé 2 : <br>";
 $employe2->duree();
 $employe2->prime();
-
-// echo "<br><br>";
-
-// $employe3 = new Employes("l'éponge", "Bob", 13000, new DateTime("13-07-1995"));
-// $employe3->duree();
-// $employe3->prime();
-
-// echo "<br><br>";
-
-// $employe4 = new Employes("Snow", "Jon", 36000, new DateTime("31-11-2021"));
-// $employe4->duree();
-// $employe4->prime();
-
-// echo "<br><br>";
-
-// $employe5 = new Employes("Duck", "Donald", 19342, new DateTime("05-05-2019"));
-// $employe5->duree();
-// $employe5->prime();
-
-echo "<br><br>";
-
-$decat = new Magasins("Décathlon", "Paris");
-$decat->setRestaurant(true);
-$decat->repas();
-// $decat->addEmploye($employe2);
-
-echo "<br><br>";
-
-$pimkie = new Magasins("Pimkie", "Rennes");
-$pimkie->setRestaurant(false);
-$pimkie->repas();
-// $pimkie->addEmploye($employe1);
+$employe2->repas();
+$employe2->cadeaux();
 
 
-var_dump($decat);
-echo "<br><br>";
-
-var_dump($pimkie);
-echo "<br><br>";
-
-$employe1->addMagasin($decat);
-var_dump($employe1);
-echo "<br><br>";
-
-
-echo "<br><br>";
 
 
 ?>

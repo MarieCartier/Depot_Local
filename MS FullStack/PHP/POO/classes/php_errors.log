@@ -251,3 +251,61 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 58
+[08-Apr-2022 10:44:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Employes' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php on line 4
+[08-Apr-2022 10:50:16 Europe/Berlin] PHP Fatal error:  Access level to Employes::$_nom must be public (as in class Magasins) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 6
+[08-Apr-2022 10:50:16 Europe/Berlin] PHP Stack trace:
+[08-Apr-2022 10:50:16 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[08-Apr-2022 10:50:16 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[08-Apr-2022 10:50:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Employes' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php on line 4
+[08-Apr-2022 10:50:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Employes' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php on line 4
+[08-Apr-2022 10:50:34 Europe/Berlin] PHP Fatal error:  Access level to Employes::$_nom must be public (as in class Magasins) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 6
+[08-Apr-2022 10:50:34 Europe/Berlin] PHP Stack trace:
+[08-Apr-2022 10:50:34 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[08-Apr-2022 10:50:34 Europe/Berlin] PHP   2. include() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:3
+[08-Apr-2022 10:54:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access private property Employes::$_nom in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:69
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(20): Magasins->repas()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 69
+[08-Apr-2022 11:00:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magasins::setEnseigne() must be of the type string, null given, called in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 18 and defined in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:11
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(18): Magasins->setEnseigne()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 11
+[08-Apr-2022 11:28:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Employes::setEnfants() must be of the type array, int given, called in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 30 and defined in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:90
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(30): Employes->setEnfants()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 90
+[08-Apr-2022 11:35:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected '>' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 197
+[08-Apr-2022 11:35:44 Europe/Berlin] PHP Fatal error:  Cannot redeclare ageEnfants() (previously declared in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:193) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 193
+[08-Apr-2022 11:35:44 Europe/Berlin] PHP Stack trace:
+[08-Apr-2022 11:35:44 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:0
+[08-Apr-2022 11:35:44 Europe/Berlin] PHP   2. Employes->prime() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php:34
+[08-Apr-2022 12:17:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 224
+[08-Apr-2022 12:22:50 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Employes::setEnfants(), 0 passed in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php on line 13 and exactly 1 expected in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php:90
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(13): Employes->setEnfants()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 90
+[11-Apr-2022 08:47:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Employes' not found in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/test2.php on line 4
+[11-Apr-2022 08:55:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 211
+[11-Apr-2022 09:17:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$cadeauJeune' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 301
+[11-Apr-2022 09:23:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Employes.class.php on line 331
+[11-Apr-2022 10:22:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class Magasins could not be converted to string in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php:67
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/testEmployes.php(19): Magasins->repas()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/POO/classes/Magasins.class.php on line 67

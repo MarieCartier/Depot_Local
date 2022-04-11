@@ -1,0 +1,80 @@
+[11-Apr-2022 10:51:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:19
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php(19): PDO->__construct()
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:19
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php(19): PDO->__construct()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php on line 19
+[11-Apr-2022 10:55:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:4
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php(4): PDO->__construct()
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:4
+Stack trace:
+#0 /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php on line 4
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP Notice:  Undefined variable: billets in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:55:59 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Notice:  Undefined variable: billets in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Notice:  Undefined variable: billets in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:12 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP Notice:  Undefined variable: billets in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php on line 19
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 10:57:13 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/vueAccueil.php:0
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP Warning:  require(Modele.php): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php on line 3
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:0
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'Modele.php' (include_path='.:/usr/share/php') in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php on line 3
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:11:49 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:0
+[11-Apr-2022 11:19:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Model.php on line 32
+[11-Apr-2022 11:20:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Model.php on line 32
+[11-Apr-2022 11:25:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Model.php on line 32
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP Warning:  require(Modele.php): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'Modele.php' (include_path='.:/usr/share/php') in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:28:40 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP Warning:  require(Modele.php): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'Modele.php' (include_path='.:/usr/share/php') in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:28:45 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP Warning:  require(Modele.php): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'Modele.php' (include_path='.:/usr/share/php') in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php on line 3
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:29:05 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/billet.php:0
+[11-Apr-2022 11:33:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Model.php on line 32
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP Warning:  require(vueBillet.php): failed to open stream: No such file or directory in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Controleur.php on line 16
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:0
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP   2. billet() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:11
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'vueBillet.php' (include_path='.:/usr/share/php') in /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/Controleur.php on line 16
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP Stack trace:
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP   1. {main}() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:0
+[11-Apr-2022 11:34:07 Europe/Berlin] PHP   2. billet() /home/marie/Bureau/Dépôt local/MS FullStack/PHP/MVC/index.php:11
