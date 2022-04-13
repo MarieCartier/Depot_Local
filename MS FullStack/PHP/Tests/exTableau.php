@@ -36,6 +36,7 @@
 
 
 
+
             $capitales = array(
                 "Bucarest" => "Roumanie",
                 "Bruxelles" => "Belgique",

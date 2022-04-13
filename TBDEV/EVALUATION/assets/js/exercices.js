@@ -20,7 +20,15 @@ do
     {
     p=p+a+"\n";
     x++;
-    jeunes.textContent = "Le nombre de moins de 20 ans est : " + x + ", ";
+        if (x==1)
+        {
+            jeunes.textContent = "Il y a 1 jeune de moins de 20 ans,";
+        }
+        else if (x>1)
+        {
+            jeunes.textContent = "Le nombre de moins de 20 ans est : " + x + ", ";
+        }
+
     }
 
 // Cas si entre 20 et 40
@@ -28,7 +36,15 @@ do
         {
             p=p+a+"\n";
             y++;
-            adultes.textContent = "Le nombre d'adultes est : " + y + ", ";
+
+            if (y==1)
+            {
+                adultes.textContent = "Il y 1 adulte,";
+            }
+            else if (y>1)
+            {
+                adultes.textContent = "Le nombre d'adultes est : " + y + ", ";
+            }
         }
 
 // Cas si supérieur à 40
@@ -36,12 +52,19 @@ do
             {
                 p=p+a+"\n";
                 z++;
-                vieux.textContent = "Le nombre de plus de 40 ans est : " + z ;
+                if (z==1)
+                {
+                    vieux.textContent = "Il y a un adulte de plus de 40 ans, ";
+                }
+                else if (z>1)
+                {
+                    vieux.textContent = "Le nombre de plus de 40 ans est : " + z ;
+                }    
             }
 }
 while (a<100) 
 
-console.log("liste des âge :\n" + p);
+console.log("liste des âges :\n" + p);
 ex1.textContent ="nombre total de personnes : "+b;
 
 
@@ -49,7 +72,7 @@ ex1.textContent ="nombre total de personnes : "+b;
 // EXERCICE 2
 var nb = document.getElementById("nb");
 var bouton1 = document.getElementById("bouton1");
-var ex2 = document.getElementById("ex2");
+var ex2 = " ";//document.getElementById("ex2");
 
 var mult = null;
 
@@ -63,11 +86,12 @@ function multiplication(b)
         var produit= m*b;
         //mult= mult + produit + "\n";
         console.log(m + " x " + b + " = " + produit + "\n");
-        ex2.innerHTML += m + " x " + b + " = " + produit + "<br>";
+        ex2 += m + " x " + b + " = " + produit + "\n";
 
         m++;
     }
     while (m<=10)
+    alert(ex2);
 }
 
 bouton1.addEventListener("click", multiplication);
