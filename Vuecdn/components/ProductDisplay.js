@@ -39,6 +39,8 @@ app.component("product-display", {
           </button>
           <button
             class="button"
+            :class="{disabledButton: !inStock}"
+            :disabled="!inStock"
             @click="remFromCart"
           >
             Enlever du panier
@@ -64,20 +66,19 @@ app.component("product-display", {
           color: "vert",
           back: "#4F9869",
           image: "./assets/images/socks_green.jpg",
-          quantity: 20,
+          quantity: 0,
         },
       ],
     };
   },
   methods: {
     addToCart() {
-        this.variants[this.selectedVariant].quantity--
-      this.$emit("add-to-cart",this.variants[this.selectedVariant].id)
+      this.cart += 1;
     },
     remFromCart() {
-        this.variants[this.selectedVariant].quantity++
-
-      this.$emit("rem-from-cart",this.variants[this.selectedVariant].id)
+      if (this.cart > 0) {
+        this.cart -= 1;
+      }
     },
     updateVariant(index) {
       this.selectedVariant = index;
